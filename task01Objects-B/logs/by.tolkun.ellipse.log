@@ -1,0 +1,1436 @@
+2019-02-26 21:52:20.037 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.051 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.054 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.058 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.060 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.064 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.068 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.070 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.124 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "10a a10 *15 15* -15-" is invalid.
+2019-02-26 21:52:20.128 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "!1 ,2 :3 ;4" is invalid.
+2019-02-26 21:52:20.129 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String ". 0.0 1.0 0.1" is invalid.
+2019-02-26 21:52:20.132 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "-10 0 10 01 10" is valid.
+2019-02-26 21:52:20.133 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "-1.0 0.0 1.0" is valid.
+2019-02-26 21:52:20.134 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "1. .1" is valid.
+2019-02-26 21:52:20.137 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.137 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "0.1 10a .2" is invalid.
+2019-02-26 21:52:20.138 [main] WARN  by.tolkun.ellipse.parser.DoubleArrayParser - Invalid input data: 0.1 10a .2.
+2019-02-26 21:52:20.175 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "0.1 10a .2" parsed into [].
+2019-02-26 21:52:20.175 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.175 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "*10" is invalid.
+2019-02-26 21:52:20.176 [main] WARN  by.tolkun.ellipse.parser.DoubleArrayParser - Invalid input data: *10.
+2019-02-26 21:52:20.176 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "*10" parsed into [].
+2019-02-26 21:52:20.176 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.176 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String ". " is invalid.
+2019-02-26 21:52:20.176 [main] WARN  by.tolkun.ellipse.parser.DoubleArrayParser - Invalid input data: . .
+2019-02-26 21:52:20.176 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String ". " parsed into [].
+2019-02-26 21:52:20.177 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.177 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "-1 0 1" is valid.
+2019-02-26 21:52:20.177 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "-1 0 1" parsed into [-1.0, 0.0, 1.0].
+2019-02-26 21:52:20.178 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.178 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "-1.0 0.0 1.0" is valid.
+2019-02-26 21:52:20.178 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "-1.0 0.0 1.0" parsed into [-1.0, 0.0, 1.0].
+2019-02-26 21:52:20.179 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.179 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "1. .1" is valid.
+2019-02-26 21:52:20.179 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "1. .1" parsed into [1.0, 0.1].
+2019-02-26 21:52:20.179 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.179 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "" is valid.
+2019-02-26 21:52:20.179 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "" parsed into [].
+2019-02-26 21:52:20.182 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.1, 10.0, 0.2] is invalid.
+2019-02-26 21:52:20.182 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-10.0] is invalid.
+2019-02-26 21:52:20.183 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [] is invalid.
+2019-02-26 21:52:20.184 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-10.0, 0.0] is valid.
+2019-02-26 21:52:20.184 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, 0.0] is valid.
+2019-02-26 21:52:20.185 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, 0.1] is valid.
+2019-02-26 21:52:20.186 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [] is invalid.
+2019-02-26 21:52:20.186 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.1] is invalid.
+2019-02-26 21:52:20.187 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [10.0, 12.0] is invalid.
+2019-02-26 21:52:20.188 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [10.0, 0.0, 0.18] is invalid.
+2019-02-26 21:52:20.188 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [2.0, 2.0, 2.0, 2.0] is invalid.
+2019-02-26 21:52:20.190 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [2.0, 4.0, 2.0, 3.0] is invalid.
+2019-02-26 21:52:20.191 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [3.0, 2.0, 4.0, 2.0] is invalid.
+2019-02-26 21:52:20.191 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [3.0, 2.0, 4.0, 2.0, 0.0] is invalid.
+2019-02-26 21:52:20.194 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-1.0, 1.0, 1.0, -1.0] is valid.
+2019-02-26 21:52:20.197 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-1.0, 1.0, 1.0, -1.0] is valid.
+2019-02-26 21:52:20.198 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.0, 0.0, 0.1, -1.0] is valid.
+2019-02-26 21:52:20.199 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.199 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, 0.0, 0.0] is invalid.
+2019-02-26 21:52:20.200 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.200 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, 1.0, 1.0] is invalid.
+2019-02-26 21:52:20.200 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.200 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, -1.0, -1.0] is invalid.
+2019-02-26 21:52:20.201 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.201 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, -1.0, 1.0] is invalid.
+2019-02-26 21:52:20.201 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.201 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, 1.0, -1.0] is invalid.
+2019-02-26 21:52:20.201 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.201 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0] is invalid.
+2019-02-26 21:52:20.202 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.202 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0] is invalid.
+2019-02-26 21:52:20.202 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.202 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0] is invalid.
+2019-02-26 21:52:20.204 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.205 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.207 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "0 0 0" is valid.
+2019-02-26 21:52:20.208 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "0 0 0" parsed into [0.0, 0.0, 0.0].
+2019-02-26 21:52:20.208 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.208 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.208 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, 0.0, 0.0] is invalid.
+2019-02-26 21:52:20.209 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.209 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.209 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "1 1 1" is valid.
+2019-02-26 21:52:20.209 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "1 1 1" parsed into [1.0, 1.0, 1.0].
+2019-02-26 21:52:20.209 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.209 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.209 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, 1.0, 1.0] is invalid.
+2019-02-26 21:52:20.210 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.210 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.211 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "-1 -1 -1" is valid.
+2019-02-26 21:52:20.211 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "-1 -1 -1" parsed into [-1.0, -1.0, -1.0].
+2019-02-26 21:52:20.211 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.211 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.211 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, -1.0, -1.0] is invalid.
+2019-02-26 21:52:20.212 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.212 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.212 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "1 -1 1" is valid.
+2019-02-26 21:52:20.213 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "1 -1 1" parsed into [1.0, -1.0, 1.0].
+2019-02-26 21:52:20.213 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.213 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.214 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, -1.0, 1.0] is invalid.
+2019-02-26 21:52:20.215 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.215 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.215 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "-1 1 -1" is valid.
+2019-02-26 21:52:20.215 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "-1 1 -1" parsed into [-1.0, 1.0, -1.0].
+2019-02-26 21:52:20.215 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.215 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.215 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, 1.0, -1.0] is invalid.
+2019-02-26 21:52:20.219 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.220 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.220 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "-1" is valid.
+2019-02-26 21:52:20.220 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "-1" parsed into [-1.0].
+2019-02-26 21:52:20.220 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.220 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.220 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0] is invalid.
+2019-02-26 21:52:20.221 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.221 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.221 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "0" is valid.
+2019-02-26 21:52:20.221 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "0" parsed into [0.0].
+2019-02-26 21:52:20.221 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.221 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.222 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0] is invalid.
+2019-02-26 21:52:20.222 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.222 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.223 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "1" is valid.
+2019-02-26 21:52:20.223 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "1" parsed into [1.0].
+2019-02-26 21:52:20.223 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.223 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.223 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0] is invalid.
+2019-02-26 21:52:20.224 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 0.0.
+2019-02-26 21:52:20.224 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = 1.0.
+2019-02-26 21:52:20.224 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = -1.0.
+2019-02-26 21:52:20.224 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.225 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.225 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.225 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, 0.0] is valid.
+2019-02-26 21:52:20.225 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 0.0.
+2019-02-26 21:52:20.225 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.226 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, 1.0] is valid.
+2019-02-26 21:52:20.226 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = 1.0.
+2019-02-26 21:52:20.226 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.227 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, -1.0] is valid.
+2019-02-26 21:52:20.227 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = -1.0.
+2019-02-26 21:52:20.227 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.227 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, -1.0] is valid.
+2019-02-26 21:52:20.227 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.228 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.228 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, 1.0] is valid.
+2019-02-26 21:52:20.228 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.228 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 0.0.
+2019-02-26 21:52:20.228 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = 1.0.
+2019-02-26 21:52:20.229 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = -1.0.
+2019-02-26 21:52:20.229 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.229 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.229 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.229 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.229 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "0 0" is valid.
+2019-02-26 21:52:20.229 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "0 0" parsed into [0.0, 0.0].
+2019-02-26 21:52:20.229 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.229 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.229 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, 0.0] is valid.
+2019-02-26 21:52:20.229 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 0.0.
+2019-02-26 21:52:20.230 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.230 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.230 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "1 1" is valid.
+2019-02-26 21:52:20.230 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "1 1" parsed into [1.0, 1.0].
+2019-02-26 21:52:20.230 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.230 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.230 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, 1.0] is valid.
+2019-02-26 21:52:20.230 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = 1.0.
+2019-02-26 21:52:20.231 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.231 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.231 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "-1 -1" is valid.
+2019-02-26 21:52:20.232 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "-1 -1" parsed into [-1.0, -1.0].
+2019-02-26 21:52:20.232 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.232 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.232 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, -1.0] is valid.
+2019-02-26 21:52:20.232 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = -1.0.
+2019-02-26 21:52:20.234 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.234 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.234 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "1 -1" is valid.
+2019-02-26 21:52:20.234 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "1 -1" parsed into [1.0, -1.0].
+2019-02-26 21:52:20.234 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.234 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.234 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, -1.0] is valid.
+2019-02-26 21:52:20.235 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.235 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.235 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.235 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "-1 1" is valid.
+2019-02-26 21:52:20.237 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "-1 1" parsed into [-1.0, 1.0].
+2019-02-26 21:52:20.237 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.237 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.237 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, 1.0] is valid.
+2019-02-26 21:52:20.237 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.239 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.239 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [] is invalid.
+2019-02-26 21:52:20.240 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.240 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.1] is invalid.
+2019-02-26 21:52:20.240 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.241 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [10.0, 12.0] is invalid.
+2019-02-26 21:52:20.241 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.241 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [10.0, 0.0, 0.18] is invalid.
+2019-02-26 21:52:20.242 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.242 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [2.0, 2.0, 2.0, 2.0] is invalid.
+2019-02-26 21:52:20.242 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.243 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [2.0, 4.0, 2.0, 3.0] is invalid.
+2019-02-26 21:52:20.243 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.243 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [3.0, 2.0, 4.0, 2.0] is invalid.
+2019-02-26 21:52:20.244 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.244 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [3.0, 2.0, 4.0, 2.0, 0.0] is invalid.
+2019-02-26 21:52:20.244 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.244 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.245 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "" is valid.
+2019-02-26 21:52:20.245 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "" parsed into [].
+2019-02-26 21:52:20.245 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.245 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [] is invalid.
+2019-02-26 21:52:20.245 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.245 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.245 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "0.1" is valid.
+2019-02-26 21:52:20.245 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "0.1" parsed into [0.1].
+2019-02-26 21:52:20.246 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.246 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.1] is invalid.
+2019-02-26 21:52:20.246 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.246 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.246 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "10., 12" is valid.
+2019-02-26 21:52:20.246 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "10., 12" parsed into [10.0, 12.0].
+2019-02-26 21:52:20.246 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.246 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [10.0, 12.0] is invalid.
+2019-02-26 21:52:20.247 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.247 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.247 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "10., 0, .18" is valid.
+2019-02-26 21:52:20.247 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "10., 0, .18" parsed into [10.0, 0.0, 0.18].
+2019-02-26 21:52:20.247 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.248 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [10.0, 0.0, 0.18] is invalid.
+2019-02-26 21:52:20.248 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.248 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.248 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "2, 2, 2, 2" is valid.
+2019-02-26 21:52:20.248 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "2, 2, 2, 2" parsed into [2.0, 2.0, 2.0, 2.0].
+2019-02-26 21:52:20.248 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.249 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [2.0, 2.0, 2.0, 2.0] is invalid.
+2019-02-26 21:52:20.249 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.249 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.250 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "2, 4, 2, 3" is valid.
+2019-02-26 21:52:20.250 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "2, 4, 2, 3" parsed into [2.0, 4.0, 2.0, 3.0].
+2019-02-26 21:52:20.250 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.250 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [2.0, 4.0, 2.0, 3.0] is invalid.
+2019-02-26 21:52:20.251 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.251 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.251 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "3, 2, 4, 2" is valid.
+2019-02-26 21:52:20.251 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "3, 2, 4, 2" parsed into [3.0, 2.0, 4.0, 2.0].
+2019-02-26 21:52:20.251 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.251 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [3.0, 2.0, 4.0, 2.0] is invalid.
+2019-02-26 21:52:20.252 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.252 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.252 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "3, 2, 4, 2, 0" is valid.
+2019-02-26 21:52:20.252 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "3, 2, 4, 2, 0" parsed into [3.0, 2.0, 4.0, 2.0, 0.0].
+2019-02-26 21:52:20.253 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.253 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [3.0, 2.0, 4.0, 2.0, 0.0] is invalid.
+2019-02-26 21:52:20.253 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.253 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.253 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.253 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.254 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.254 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.254 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 0.0.
+2019-02-26 21:52:20.254 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.1, y = -1.0.
+2019-02-26 21:52:20.254 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.254 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.254 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-1.0, 1.0, 1.0, -1.0] is valid.
+2019-02-26 21:52:20.254 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.254 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.254 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, 1.0] is valid.
+2019-02-26 21:52:20.254 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.254 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.254 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, -1.0] is valid.
+2019-02-26 21:52:20.254 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.254 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.255 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.255 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-1.0, 1.0, 1.0, -1.0] is valid.
+2019-02-26 21:52:20.255 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.255 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.255 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, 1.0] is valid.
+2019-02-26 21:52:20.255 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.255 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.255 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, -1.0] is valid.
+2019-02-26 21:52:20.256 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.256 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.256 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.257 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.0, 0.0, 0.1, -1.0] is valid.
+2019-02-26 21:52:20.257 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.257 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.257 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, 0.0] is valid.
+2019-02-26 21:52:20.257 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 0.0.
+2019-02-26 21:52:20.258 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.258 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.1, -1.0] is valid.
+2019-02-26 21:52:20.258 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.1, y = -1.0.
+2019-02-26 21:52:20.258 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.258 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.258 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.258 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.258 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.258 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.259 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.259 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 0.0.
+2019-02-26 21:52:20.259 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.1, y = -1.0.
+2019-02-26 21:52:20.259 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.259 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.259 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.259 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "-1, 1, 1, -1" is valid.
+2019-02-26 21:52:20.260 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "-1, 1, 1, -1" parsed into [-1.0, 1.0, 1.0, -1.0].
+2019-02-26 21:52:20.260 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.261 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-1.0, 1.0, 1.0, -1.0] is valid.
+2019-02-26 21:52:20.261 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.261 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.261 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, 1.0] is valid.
+2019-02-26 21:52:20.261 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.261 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.261 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, -1.0] is valid.
+2019-02-26 21:52:20.261 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.261 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.262 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.262 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.262 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "-1.0, 1.0, 1.0, -1.0" is valid.
+2019-02-26 21:52:20.263 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "-1.0, 1.0, 1.0, -1.0" parsed into [-1.0, 1.0, 1.0, -1.0].
+2019-02-26 21:52:20.263 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.263 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-1.0, 1.0, 1.0, -1.0] is valid.
+2019-02-26 21:52:20.263 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.263 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.263 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, 1.0] is valid.
+2019-02-26 21:52:20.263 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.263 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.263 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, -1.0] is valid.
+2019-02-26 21:52:20.263 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.264 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.264 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.264 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.264 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String ".0, 0., .1, -1." is valid.
+2019-02-26 21:52:20.264 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String ".0, 0., .1, -1." parsed into [0.0, 0.0, 0.1, -1.0].
+2019-02-26 21:52:20.264 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.264 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.0, 0.0, 0.1, -1.0] is valid.
+2019-02-26 21:52:20.264 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.265 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.265 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, 0.0] is valid.
+2019-02-26 21:52:20.265 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 0.0.
+2019-02-26 21:52:20.265 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.265 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.1, -1.0] is valid.
+2019-02-26 21:52:20.265 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.1, y = -1.0.
+2019-02-26 21:52:20.265 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.269 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.269 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [] is invalid.
+2019-02-26 21:52:20.270 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.270 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.1] is invalid.
+2019-02-26 21:52:20.271 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.271 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [10.0, 12.0] is invalid.
+2019-02-26 21:52:20.271 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.271 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [10.0, 0.0, 0.18] is invalid.
+2019-02-26 21:52:20.271 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.271 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [2.0, 2.0, 2.0, 2.0] is invalid.
+2019-02-26 21:52:20.272 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.272 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [2.0, 4.0, 2.0, 3.0] is invalid.
+2019-02-26 21:52:20.272 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.272 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [3.0, 2.0, 4.0, 2.0] is invalid.
+2019-02-26 21:52:20.273 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.273 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [3.0, 2.0, 4.0, 2.0, 0.0] is invalid.
+2019-02-26 21:52:20.274 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.274 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.274 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "" is valid.
+2019-02-26 21:52:20.274 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "" parsed into [].
+2019-02-26 21:52:20.274 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.274 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [] is invalid.
+2019-02-26 21:52:20.274 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.274 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.274 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "0.1" is valid.
+2019-02-26 21:52:20.274 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "0.1" parsed into [0.1].
+2019-02-26 21:52:20.275 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.275 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.1] is invalid.
+2019-02-26 21:52:20.275 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.276 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.276 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "10., 12" is valid.
+2019-02-26 21:52:20.276 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "10., 12" parsed into [10.0, 12.0].
+2019-02-26 21:52:20.276 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.276 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [10.0, 12.0] is invalid.
+2019-02-26 21:52:20.277 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.277 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.278 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "10., 0, .18" is valid.
+2019-02-26 21:52:20.278 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "10., 0, .18" parsed into [10.0, 0.0, 0.18].
+2019-02-26 21:52:20.278 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.278 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [10.0, 0.0, 0.18] is invalid.
+2019-02-26 21:52:20.278 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.278 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.278 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "2, 2, 2, 2" is valid.
+2019-02-26 21:52:20.279 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "2, 2, 2, 2" parsed into [2.0, 2.0, 2.0, 2.0].
+2019-02-26 21:52:20.279 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.279 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [2.0, 2.0, 2.0, 2.0] is invalid.
+2019-02-26 21:52:20.280 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.280 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.280 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "2, 4, 2, 3" is valid.
+2019-02-26 21:52:20.280 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "2, 4, 2, 3" parsed into [2.0, 4.0, 2.0, 3.0].
+2019-02-26 21:52:20.280 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.280 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [2.0, 4.0, 2.0, 3.0] is invalid.
+2019-02-26 21:52:20.281 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.281 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.281 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "3, 2, 4, 2" is valid.
+2019-02-26 21:52:20.281 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "3, 2, 4, 2" parsed into [3.0, 2.0, 4.0, 2.0].
+2019-02-26 21:52:20.281 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.281 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [3.0, 2.0, 4.0, 2.0] is invalid.
+2019-02-26 21:52:20.282 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.282 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.282 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "3, 2, 4, 2, 0" is valid.
+2019-02-26 21:52:20.282 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "3, 2, 4, 2, 0" parsed into [3.0, 2.0, 4.0, 2.0, 0.0].
+2019-02-26 21:52:20.282 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.282 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [3.0, 2.0, 4.0, 2.0, 0.0] is invalid.
+2019-02-26 21:52:20.283 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.283 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.283 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.283 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.283 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.283 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.283 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.283 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.283 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 0.0.
+2019-02-26 21:52:20.283 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.1, y = -1.0.
+2019-02-26 21:52:20.283 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.283 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.284 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.284 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-1.0, 1.0, 1.0, -1.0] is valid.
+2019-02-26 21:52:20.284 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.284 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.284 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, 1.0] is valid.
+2019-02-26 21:52:20.284 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.284 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.284 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, -1.0] is valid.
+2019-02-26 21:52:20.284 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.284 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.284 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.285 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.285 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-1.0, 1.0, 1.0, -1.0] is valid.
+2019-02-26 21:52:20.285 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.285 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.285 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, 1.0] is valid.
+2019-02-26 21:52:20.285 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.285 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.285 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, -1.0] is valid.
+2019-02-26 21:52:20.285 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.285 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.285 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.286 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.286 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.0, 0.0, 0.1, -1.0] is valid.
+2019-02-26 21:52:20.286 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.286 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.286 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, 0.0] is valid.
+2019-02-26 21:52:20.286 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 0.0.
+2019-02-26 21:52:20.286 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.286 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.1, -1.0] is valid.
+2019-02-26 21:52:20.286 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.1, y = -1.0.
+2019-02-26 21:52:20.286 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.287 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.287 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.287 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.287 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.287 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.287 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.287 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.287 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.287 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.287 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 0.0.
+2019-02-26 21:52:20.287 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.1, y = -1.0.
+2019-02-26 21:52:20.288 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.288 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.288 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.288 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.288 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "-1, 1, 1, -1" is valid.
+2019-02-26 21:52:20.288 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "-1, 1, 1, -1" parsed into [-1.0, 1.0, 1.0, -1.0].
+2019-02-26 21:52:20.288 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.288 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-1.0, 1.0, 1.0, -1.0] is valid.
+2019-02-26 21:52:20.288 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.288 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.289 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, 1.0] is valid.
+2019-02-26 21:52:20.289 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.289 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.289 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, -1.0] is valid.
+2019-02-26 21:52:20.289 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.289 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.289 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.289 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.290 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.290 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String "-1.0, 1.0, 1.0, -1.0" is valid.
+2019-02-26 21:52:20.290 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String "-1.0, 1.0, 1.0, -1.0" parsed into [-1.0, 1.0, 1.0, -1.0].
+2019-02-26 21:52:20.290 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.291 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-1.0, 1.0, 1.0, -1.0] is valid.
+2019-02-26 21:52:20.291 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.291 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.291 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, 1.0] is valid.
+2019-02-26 21:52:20.291 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.291 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.291 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, -1.0] is valid.
+2019-02-26 21:52:20.291 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.291 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.291 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.292 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - DoubleArrayParser created.
+2019-02-26 21:52:20.292 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - StringValidator created.
+2019-02-26 21:52:20.292 [main] DEBUG by.tolkun.ellipse.validator.StringValidator - String ".0, 0., .1, -1." is valid.
+2019-02-26 21:52:20.293 [main] DEBUG by.tolkun.ellipse.parser.DoubleArrayParser - String ".0, 0., .1, -1." parsed into [0.0, 0.0, 0.1, -1.0].
+2019-02-26 21:52:20.293 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.293 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.0, 0.0, 0.1, -1.0] is valid.
+2019-02-26 21:52:20.293 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.293 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.293 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, 0.0] is valid.
+2019-02-26 21:52:20.293 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 0.0.
+2019-02-26 21:52:20.293 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.293 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.1, -1.0] is valid.
+2019-02-26 21:52:20.293 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.1, y = -1.0.
+2019-02-26 21:52:20.294 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.294 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.295 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -2.0, y = 1.0.
+2019-02-26 21:52:20.295 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 2.0, y = -1.0.
+2019-02-26 21:52:20.295 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.295 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.5, y = 3.5.
+2019-02-26 21:52:20.295 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 4.5, y = -3.5.
+2019-02-26 21:52:20.296 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.296 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -7.0, y = 1.0.
+2019-02-26 21:52:20.296 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 5.0.
+2019-02-26 21:52:20.296 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.297 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.5, y = 4.0.
+2019-02-26 21:52:20.297 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.5, y = 2.0.
+2019-02-26 21:52:20.297 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.298 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -4.0, y = 1.0.
+2019-02-26 21:52:20.298 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -2.0, y = 5.0.
+2019-02-26 21:52:20.298 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.299 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -6.5, y = 2.0.
+2019-02-26 21:52:20.299 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -2.0, y = -2.0.
+2019-02-26 21:52:20.299 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.299 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 2.0, y = -2.0.
+2019-02-26 21:52:20.299 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 6.5, y = -6.0.
+2019-02-26 21:52:20.300 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.301 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.301 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.301 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.0, 0.0, 4.0, 4.0] is valid.
+2019-02-26 21:52:20.301 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.301 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.301 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, 4.0] is valid.
+2019-02-26 21:52:20.301 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 4.0.
+2019-02-26 21:52:20.301 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.301 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [4.0, 0.0] is valid.
+2019-02-26 21:52:20.301 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 4.0, y = 0.0.
+2019-02-26 21:52:20.301 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.301 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 12.566370614359172
+2019-02-26 21:52:20.302 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.302 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.302 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [2.5, 3.2, -6.6, -3.1] is valid.
+2019-02-26 21:52:20.302 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.302 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.303 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-6.6, 3.2] is valid.
+2019-02-26 21:52:20.303 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -6.6, y = 3.2.
+2019-02-26 21:52:20.303 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.303 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [2.5, -3.1] is valid.
+2019-02-26 21:52:20.303 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 2.5, y = -3.1.
+2019-02-26 21:52:20.303 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.303 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 24.19026343264141
+2019-02-26 21:52:20.304 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.304 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.304 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-6.6, -3.1, 2.5, 3.2] is valid.
+2019-02-26 21:52:20.304 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.304 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.304 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-6.6, 3.2] is valid.
+2019-02-26 21:52:20.304 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -6.6, y = 3.2.
+2019-02-26 21:52:20.304 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.304 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [2.5, -3.1] is valid.
+2019-02-26 21:52:20.304 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 2.5, y = -3.1.
+2019-02-26 21:52:20.304 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.304 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 24.19026343264141
+2019-02-26 21:52:20.305 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.305 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.305 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-3.0, -1.0, -1.0, -5.0] is valid.
+2019-02-26 21:52:20.305 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.305 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.305 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-3.0, -1.0] is valid.
+2019-02-26 21:52:20.305 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -3.0, y = -1.0.
+2019-02-26 21:52:20.305 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.306 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, -5.0] is valid.
+2019-02-26 21:52:20.306 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = -5.0.
+2019-02-26 21:52:20.306 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.306 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 9.42477796076938
+2019-02-26 21:52:20.307 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.307 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.307 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-2.0, 3.0, 0.0, -3.0] is valid.
+2019-02-26 21:52:20.307 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.307 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.307 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-2.0, 3.0] is valid.
+2019-02-26 21:52:20.307 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -2.0, y = 3.0.
+2019-02-26 21:52:20.307 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.307 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, -3.0] is valid.
+2019-02-26 21:52:20.308 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = -3.0.
+2019-02-26 21:52:20.308 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.308 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 12.566370614359172
+2019-02-26 21:52:20.308 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.308 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.308 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.0, -3.0, -2.0, 3.0] is valid.
+2019-02-26 21:52:20.308 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.308 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.308 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-2.0, 3.0] is valid.
+2019-02-26 21:52:20.308 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -2.0, y = 3.0.
+2019-02-26 21:52:20.308 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.309 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, -3.0] is valid.
+2019-02-26 21:52:20.309 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = -3.0.
+2019-02-26 21:52:20.309 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.309 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 12.566370614359172
+2019-02-26 21:52:20.309 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.310 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.310 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.0, 0.0, 4.0, 4.0] is valid.
+2019-02-26 21:52:20.310 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.310 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.310 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, 4.0] is valid.
+2019-02-26 21:52:20.310 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 4.0.
+2019-02-26 21:52:20.310 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.310 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [4.0, 0.0] is valid.
+2019-02-26 21:52:20.310 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 4.0, y = 0.0.
+2019-02-26 21:52:20.310 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.310 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 12.566370614359172
+2019-02-26 21:52:20.311 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.311 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.311 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [2.5, 3.2, -6.6, -3.1] is valid.
+2019-02-26 21:52:20.311 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.311 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.311 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-6.6, 3.2] is valid.
+2019-02-26 21:52:20.311 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -6.6, y = 3.2.
+2019-02-26 21:52:20.311 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.311 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [2.5, -3.1] is valid.
+2019-02-26 21:52:20.312 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 2.5, y = -3.1.
+2019-02-26 21:52:20.312 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.312 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 45.02687670757571
+2019-02-26 21:52:20.315 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.316 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.316 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-6.6, -3.1, 2.5, 3.2] is valid.
+2019-02-26 21:52:20.316 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.316 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.317 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-6.6, 3.2] is valid.
+2019-02-26 21:52:20.317 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -6.6, y = 3.2.
+2019-02-26 21:52:20.317 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.317 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [2.5, -3.1] is valid.
+2019-02-26 21:52:20.317 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 2.5, y = -3.1.
+2019-02-26 21:52:20.317 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.317 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 45.02687670757571
+2019-02-26 21:52:20.317 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.317 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.318 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-3.0, -1.0, -1.0, -5.0] is valid.
+2019-02-26 21:52:20.318 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.318 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.318 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-3.0, -1.0] is valid.
+2019-02-26 21:52:20.318 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -3.0, y = -1.0.
+2019-02-26 21:52:20.318 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.318 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, -5.0] is valid.
+2019-02-26 21:52:20.318 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = -5.0.
+2019-02-26 21:52:20.318 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.318 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 6.283185307179586
+2019-02-26 21:52:20.319 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.319 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.319 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-2.0, 3.0, 0.0, -3.0] is valid.
+2019-02-26 21:52:20.319 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.319 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.319 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-2.0, 3.0] is valid.
+2019-02-26 21:52:20.319 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -2.0, y = 3.0.
+2019-02-26 21:52:20.319 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.319 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, -3.0] is valid.
+2019-02-26 21:52:20.319 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = -3.0.
+2019-02-26 21:52:20.319 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.319 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 9.42477796076938
+2019-02-26 21:52:20.321 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.321 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.321 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.0, -3.0, -2.0, 3.0] is valid.
+2019-02-26 21:52:20.321 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.322 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.322 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-2.0, 3.0] is valid.
+2019-02-26 21:52:20.322 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -2.0, y = 3.0.
+2019-02-26 21:52:20.322 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.322 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, -3.0] is valid.
+2019-02-26 21:52:20.322 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = -3.0.
+2019-02-26 21:52:20.322 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.322 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 9.42477796076938
+2019-02-26 21:52:20.323 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 1.0.
+2019-02-26 21:52:20.324 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -1.0.
+2019-02-26 21:52:20.324 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.325 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 0.4.
+2019-02-26 21:52:20.325 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.4, y = 0.0.
+2019-02-26 21:52:20.325 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.326 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -6.0, y = 0.0.
+2019-02-26 21:52:20.326 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = -6.0.
+2019-02-26 21:52:20.326 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.327 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -6.5, y = 4.0.
+2019-02-26 21:52:20.327 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -2.0, y = 0.0.
+2019-02-26 21:52:20.327 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.328 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -2.0, y = 2.0.
+2019-02-26 21:52:20.328 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 2.0, y = -2.0.
+2019-02-26 21:52:20.328 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.329 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 2.0, y = 0.0.
+2019-02-26 21:52:20.329 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 6.5, y = -4.0.
+2019-02-26 21:52:20.329 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.337 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -4.0, y = 6.0.
+2019-02-26 21:52:20.337 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 2.0.
+2019-02-26 21:52:20.338 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.341 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -2.0, y = 2.0.
+2019-02-26 21:52:20.341 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 2.0, y = -2.0.
+2019-02-26 21:52:20.341 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.341 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = -2.0.
+2019-02-26 21:52:20.341 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 4.0, y = -6.0.
+2019-02-26 21:52:20.342 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.343 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.343 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.344 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.0, 0.0, 4.0, 4.0] is valid.
+2019-02-26 21:52:20.344 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.344 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.346 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, 4.0] is valid.
+2019-02-26 21:52:20.346 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 4.0.
+2019-02-26 21:52:20.346 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.347 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [4.0, 0.0] is valid.
+2019-02-26 21:52:20.348 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 4.0, y = 0.0.
+2019-02-26 21:52:20.349 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.366 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.367 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.367 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.367 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 12.566370614359172
+2019-02-26 21:52:20.367 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 12.566370614359172
+2019-02-26 21:52:20.367 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.367 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.367 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 12.566370614359172
+2019-02-26 21:52:20.367 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 12.566370614359172
+2019-02-26 21:52:20.368 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.368 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.368 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [2.5, 3.2, -6.6, -3.1] is valid.
+2019-02-26 21:52:20.368 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.368 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.368 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-6.6, 3.2] is valid.
+2019-02-26 21:52:20.368 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -6.6, y = 3.2.
+2019-02-26 21:52:20.368 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.368 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [2.5, -3.1] is valid.
+2019-02-26 21:52:20.368 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 2.5, y = -3.1.
+2019-02-26 21:52:20.368 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.368 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.368 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.368 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.368 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 24.19026343264141
+2019-02-26 21:52:20.368 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 45.02687670757571
+2019-02-26 21:52:20.368 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.368 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.368 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 24.19026343264141
+2019-02-26 21:52:20.368 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 45.02687670757571
+2019-02-26 21:52:20.369 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.369 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.369 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-6.6, -3.1, 2.5, 3.2] is valid.
+2019-02-26 21:52:20.369 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.369 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.369 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-6.6, 3.2] is valid.
+2019-02-26 21:52:20.374 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -6.6, y = 3.2.
+2019-02-26 21:52:20.374 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.374 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [2.5, -3.1] is valid.
+2019-02-26 21:52:20.374 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 2.5, y = -3.1.
+2019-02-26 21:52:20.375 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.375 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.375 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.375 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.375 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 24.19026343264141
+2019-02-26 21:52:20.375 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 45.02687670757571
+2019-02-26 21:52:20.376 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.376 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.376 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 24.19026343264141
+2019-02-26 21:52:20.376 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 45.02687670757571
+2019-02-26 21:52:20.378 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.378 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.378 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-3.0, -1.0, -1.0, -5.0] is valid.
+2019-02-26 21:52:20.378 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.378 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.383 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-3.0, -1.0] is valid.
+2019-02-26 21:52:20.383 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -3.0, y = -1.0.
+2019-02-26 21:52:20.383 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.383 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, -5.0] is valid.
+2019-02-26 21:52:20.383 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = -5.0.
+2019-02-26 21:52:20.383 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.383 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.383 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.383 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.383 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 9.42477796076938
+2019-02-26 21:52:20.383 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 6.283185307179586
+2019-02-26 21:52:20.383 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.383 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.383 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 9.42477796076938
+2019-02-26 21:52:20.383 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 6.283185307179586
+2019-02-26 21:52:20.386 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.387 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.387 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-2.0, 3.0, 0.0, -3.0] is valid.
+2019-02-26 21:52:20.387 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.387 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.387 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-2.0, 3.0] is valid.
+2019-02-26 21:52:20.387 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -2.0, y = 3.0.
+2019-02-26 21:52:20.387 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.388 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, -3.0] is valid.
+2019-02-26 21:52:20.388 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = -3.0.
+2019-02-26 21:52:20.388 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.388 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.388 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.388 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.389 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 12.566370614359172
+2019-02-26 21:52:20.389 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 9.42477796076938
+2019-02-26 21:52:20.389 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.389 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.389 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 12.566370614359172
+2019-02-26 21:52:20.389 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 9.42477796076938
+2019-02-26 21:52:20.391 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.391 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.395 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.0, -3.0, -2.0, 3.0] is valid.
+2019-02-26 21:52:20.395 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.395 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.395 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-2.0, 3.0] is valid.
+2019-02-26 21:52:20.395 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -2.0, y = 3.0.
+2019-02-26 21:52:20.395 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.395 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, -3.0] is valid.
+2019-02-26 21:52:20.395 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = -3.0.
+2019-02-26 21:52:20.395 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.396 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.397 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.397 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.398 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 12.566370614359172
+2019-02-26 21:52:20.399 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 9.42477796076938
+2019-02-26 21:52:20.399 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.399 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.399 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 12.566370614359172
+2019-02-26 21:52:20.399 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 9.42477796076938
+2019-02-26 21:52:20.401 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.402 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.402 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.0, 0.0, 4.0, 4.0] is valid.
+2019-02-26 21:52:20.402 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.402 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.402 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, 4.0] is valid.
+2019-02-26 21:52:20.402 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 4.0.
+2019-02-26 21:52:20.402 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.402 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [4.0, 0.0] is valid.
+2019-02-26 21:52:20.402 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 4.0, y = 0.0.
+2019-02-26 21:52:20.402 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.402 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.402 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.403 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.403 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 12.566370614359172
+2019-02-26 21:52:20.403 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 12.566370614359172
+2019-02-26 21:52:20.403 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.403 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.403 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.403 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-3.0508239230693834, 16.068173317769446] is valid.
+2019-02-26 21:52:20.403 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -3.0508239230693834, y = 16.068173317769446.
+2019-02-26 21:52:20.403 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Begin point of ellipse changed.
+2019-02-26 21:52:20.403 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.403 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 36.31523594509098
+2019-02-26 21:52:20.404 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 88.98079021926655
+2019-02-26 21:52:20.407 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.408 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.408 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [2.5, 3.2, -6.6, -3.1] is valid.
+2019-02-26 21:52:20.408 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.408 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.408 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-6.6, 3.2] is valid.
+2019-02-26 21:52:20.409 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -6.6, y = 3.2.
+2019-02-26 21:52:20.409 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.409 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [2.5, -3.1] is valid.
+2019-02-26 21:52:20.409 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 2.5, y = -3.1.
+2019-02-26 21:52:20.410 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.410 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.410 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.410 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.410 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 24.19026343264141
+2019-02-26 21:52:20.411 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 45.02687670757571
+2019-02-26 21:52:20.411 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.411 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.411 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.411 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-19.430579184291084, 7.469998837683613] is valid.
+2019-02-26 21:52:20.412 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -19.430579184291084, y = 7.469998837683613.
+2019-02-26 21:52:20.412 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Begin point of ellipse changed.
+2019-02-26 21:52:20.413 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.413 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 51.0517885756288
+2019-02-26 21:52:20.413 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 182.06016098557598
+2019-02-26 21:52:20.414 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.414 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.414 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-6.6, -3.1, 2.5, 3.2] is valid.
+2019-02-26 21:52:20.414 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.414 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.419 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-6.6, 3.2] is valid.
+2019-02-26 21:52:20.419 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -6.6, y = 3.2.
+2019-02-26 21:52:20.419 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.420 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [2.5, -3.1] is valid.
+2019-02-26 21:52:20.420 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 2.5, y = -3.1.
+2019-02-26 21:52:20.420 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.420 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.420 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.420 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.420 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 24.19026343264141
+2019-02-26 21:52:20.420 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 45.02687670757571
+2019-02-26 21:52:20.420 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.420 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.420 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.420 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-24.583279050512125, 3.70671866435706] is valid.
+2019-02-26 21:52:20.420 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -24.583279050512125, y = 3.70671866435706.
+2019-02-26 21:52:20.420 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Begin point of ellipse changed.
+2019-02-26 21:52:20.420 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.420 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 53.23428392560395
+2019-02-26 21:52:20.421 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 144.78678561892795
+2019-02-26 21:52:20.421 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.421 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.421 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-3.0, -1.0, -1.0, -5.0] is valid.
+2019-02-26 21:52:20.421 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.421 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.421 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-3.0, -1.0] is valid.
+2019-02-26 21:52:20.424 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -3.0, y = -1.0.
+2019-02-26 21:52:20.424 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.424 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, -5.0] is valid.
+2019-02-26 21:52:20.424 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = -5.0.
+2019-02-26 21:52:20.424 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.424 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.424 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.425 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.425 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 9.42477796076938
+2019-02-26 21:52:20.425 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 6.283185307179586
+2019-02-26 21:52:20.425 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.425 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.425 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.425 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-18.56193845832758, 16.445206795109783] is valid.
+2019-02-26 21:52:20.425 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -18.56193845832758, y = 16.445206795109783.
+2019-02-26 21:52:20.425 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Begin point of ellipse changed.
+2019-02-26 21:52:20.425 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.425 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 61.2722804828544
+2019-02-26 21:52:20.425 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 295.7961866006639
+2019-02-26 21:52:20.426 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.426 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.426 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-2.0, 3.0, 0.0, -3.0] is valid.
+2019-02-26 21:52:20.426 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.426 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.426 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-2.0, 3.0] is valid.
+2019-02-26 21:52:20.426 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -2.0, y = 3.0.
+2019-02-26 21:52:20.426 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.426 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, -3.0] is valid.
+2019-02-26 21:52:20.426 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = -3.0.
+2019-02-26 21:52:20.426 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.426 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.426 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.426 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.426 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 12.566370614359172
+2019-02-26 21:52:20.426 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 9.42477796076938
+2019-02-26 21:52:20.426 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.427 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.427 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.427 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-17.50062688775454, 21.91392170481591] is valid.
+2019-02-26 21:52:20.427 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -17.50062688775454, y = 21.91392170481591.
+2019-02-26 21:52:20.427 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Begin point of ellipse changed.
+2019-02-26 21:52:20.427 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.427 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 66.62461713187331
+2019-02-26 21:52:20.427 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 342.44086265589857
+2019-02-26 21:52:20.428 [main] DEBUG tolkun.ellipse.factory.geometry.EllipseFactory - EllipseFactory created.
+2019-02-26 21:52:20.428 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.428 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.0, -3.0, -2.0, 3.0] is valid.
+2019-02-26 21:52:20.429 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.429 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.429 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-2.0, 3.0] is valid.
+2019-02-26 21:52:20.429 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -2.0, y = 3.0.
+2019-02-26 21:52:20.429 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.429 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, -3.0] is valid.
+2019-02-26 21:52:20.429 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = -3.0.
+2019-02-26 21:52:20.429 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.429 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.429 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.429 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.429 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 12.566370614359172
+2019-02-26 21:52:20.429 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 9.42477796076938
+2019-02-26 21:52:20.429 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.429 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.430 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.430 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-4.643474362242846, 10.690269287252804] is valid.
+2019-02-26 21:52:20.430 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -4.643474362242846, y = 10.690269287252804.
+2019-02-26 21:52:20.430 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Begin point of ellipse changed.
+2019-02-26 21:52:20.430 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.430 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 28.798577181027028
+2019-02-26 21:52:20.430 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 49.928086753527474
+2019-02-26 21:52:20.432 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.432 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.432 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.0, 0.0, 4.0, 4.0] is valid.
+2019-02-26 21:52:20.432 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.432 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.433 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, 4.0] is valid.
+2019-02-26 21:52:20.433 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 4.0.
+2019-02-26 21:52:20.433 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.433 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [4.0, 0.0] is valid.
+2019-02-26 21:52:20.433 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 4.0, y = 0.0.
+2019-02-26 21:52:20.433 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.433 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.433 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.433 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.433 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.433 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 12.566370614359172
+2019-02-26 21:52:20.433 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 12.566370614359172
+2019-02-26 21:52:20.434 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.434 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.434 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.434 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.7424147850553795, 14.857092459417188] is valid.
+2019-02-26 21:52:20.434 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.7424147850553795, y = 14.857092459417188.
+2019-02-26 21:52:20.434 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Begin point of ellipse changed.
+2019-02-26 21:52:20.435 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - Notification send to observers.
+2019-02-26 21:52:20.437 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - Notification got.
+2019-02-26 21:52:20.437 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.437 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 32.357630313402375
+2019-02-26 21:52:20.437 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 67.00670565462049
+2019-02-26 21:52:20.437 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - Data updated.
+2019-02-26 21:52:20.437 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.437 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 32.357630313402375
+2019-02-26 21:52:20.438 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 67.00670565462049
+2019-02-26 21:52:20.438 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.438 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.438 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [2.5, 3.2, -6.6, -3.1] is valid.
+2019-02-26 21:52:20.438 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.438 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.438 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-6.6, 3.2] is valid.
+2019-02-26 21:52:20.438 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -6.6, y = 3.2.
+2019-02-26 21:52:20.439 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.439 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [2.5, -3.1] is valid.
+2019-02-26 21:52:20.439 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 2.5, y = -3.1.
+2019-02-26 21:52:20.439 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.439 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.439 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.439 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.439 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.439 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 24.19026343264141
+2019-02-26 21:52:20.439 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 45.02687670757571
+2019-02-26 21:52:20.439 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.439 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.439 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.439 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-7.658212589717886, 17.981418379317272] is valid.
+2019-02-26 21:52:20.439 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -7.658212589717886, y = 17.981418379317272.
+2019-02-26 21:52:20.439 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Begin point of ellipse changed.
+2019-02-26 21:52:20.439 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - Notification send to observers.
+2019-02-26 21:52:20.439 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - Notification got.
+2019-02-26 21:52:20.439 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.439 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 49.07109757658853
+2019-02-26 21:52:20.439 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 168.19264723232772
+2019-02-26 21:52:20.440 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - Data updated.
+2019-02-26 21:52:20.440 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.441 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 49.07109757658853
+2019-02-26 21:52:20.441 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 168.19264723232772
+2019-02-26 21:52:20.441 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.441 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.441 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-6.6, -3.1, 2.5, 3.2] is valid.
+2019-02-26 21:52:20.441 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.441 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.441 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-6.6, 3.2] is valid.
+2019-02-26 21:52:20.441 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -6.6, y = 3.2.
+2019-02-26 21:52:20.441 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.443 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [2.5, -3.1] is valid.
+2019-02-26 21:52:20.443 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 2.5, y = -3.1.
+2019-02-26 21:52:20.443 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.443 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.443 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.443 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.443 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.443 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 24.19026343264141
+2019-02-26 21:52:20.443 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 45.02687670757571
+2019-02-26 21:52:20.443 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.443 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.443 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.443 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-12.751539625580463, 21.647499896318447] is valid.
+2019-02-26 21:52:20.443 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -12.751539625580463, y = 21.647499896318447.
+2019-02-26 21:52:20.443 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Begin point of ellipse changed.
+2019-02-26 21:52:20.443 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - Notification send to observers.
+2019-02-26 21:52:20.443 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - Notification got.
+2019-02-26 21:52:20.443 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.443 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 62.8303443563227
+2019-02-26 21:52:20.443 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 296.43869990014895
+2019-02-26 21:52:20.443 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - Data updated.
+2019-02-26 21:52:20.444 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.444 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 62.8303443563227
+2019-02-26 21:52:20.445 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 296.43869990014895
+2019-02-26 21:52:20.445 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.448 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.448 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-3.0, -1.0, -1.0, -5.0] is valid.
+2019-02-26 21:52:20.448 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.448 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.448 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-3.0, -1.0] is valid.
+2019-02-26 21:52:20.448 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -3.0, y = -1.0.
+2019-02-26 21:52:20.449 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.449 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, -5.0] is valid.
+2019-02-26 21:52:20.449 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = -5.0.
+2019-02-26 21:52:20.449 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.449 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.449 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.449 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.449 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.449 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 9.42477796076938
+2019-02-26 21:52:20.450 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 6.283185307179586
+2019-02-26 21:52:20.450 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.450 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.450 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.450 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-7.744151854946237, -0.5081318074917731] is valid.
+2019-02-26 21:52:20.450 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -7.744151854946237, y = -0.5081318074917731.
+2019-02-26 21:52:20.451 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Begin point of ellipse changed.
+2019-02-26 21:52:20.451 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - Notification send to observers.
+2019-02-26 21:52:20.451 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - Notification got.
+2019-02-26 21:52:20.451 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.451 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 17.64949901833529
+2019-02-26 21:52:20.451 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 23.79272724283753
+2019-02-26 21:52:20.451 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - Data updated.
+2019-02-26 21:52:20.451 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.451 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 17.64949901833529
+2019-02-26 21:52:20.452 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 23.79272724283753
+2019-02-26 21:52:20.453 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.454 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.457 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-2.0, 3.0, 0.0, -3.0] is valid.
+2019-02-26 21:52:20.457 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.457 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.457 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-2.0, 3.0] is valid.
+2019-02-26 21:52:20.457 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -2.0, y = 3.0.
+2019-02-26 21:52:20.457 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.457 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, -3.0] is valid.
+2019-02-26 21:52:20.458 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = -3.0.
+2019-02-26 21:52:20.458 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.458 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.458 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.458 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.458 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.458 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 12.566370614359172
+2019-02-26 21:52:20.458 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 9.42477796076938
+2019-02-26 21:52:20.458 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.458 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.458 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.458 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-16.309116652235915, 4.016329779177088] is valid.
+2019-02-26 21:52:20.458 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -16.309116652235915, y = 4.016329779177088.
+2019-02-26 21:52:20.458 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Begin point of ellipse changed.
+2019-02-26 21:52:20.458 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - Notification send to observers.
+2019-02-26 21:52:20.458 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - Notification got.
+2019-02-26 21:52:20.458 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.458 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 36.63952557531467
+2019-02-26 21:52:20.458 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 89.8732224523843
+2019-02-26 21:52:20.458 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - Data updated.
+2019-02-26 21:52:20.458 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.458 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 36.63952557531467
+2019-02-26 21:52:20.458 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 89.8732224523843
+2019-02-26 21:52:20.459 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.459 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.459 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.0, -3.0, -2.0, 3.0] is valid.
+2019-02-26 21:52:20.459 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.459 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.459 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-2.0, 3.0] is valid.
+2019-02-26 21:52:20.459 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -2.0, y = 3.0.
+2019-02-26 21:52:20.459 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.459 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, -3.0] is valid.
+2019-02-26 21:52:20.459 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = -3.0.
+2019-02-26 21:52:20.459 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.459 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.460 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.460 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.460 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.460 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 12.566370614359172
+2019-02-26 21:52:20.461 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 9.42477796076938
+2019-02-26 21:52:20.461 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.461 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.461 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.461 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-11.770528693860456, 10.083914503783822] is valid.
+2019-02-26 21:52:20.461 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -11.770528693860456, y = 10.083914503783822.
+2019-02-26 21:52:20.461 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Begin point of ellipse changed.
+2019-02-26 21:52:20.461 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - Notification send to observers.
+2019-02-26 21:52:20.462 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - Notification got.
+2019-02-26 21:52:20.462 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.462 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 39.04126807939204
+2019-02-26 21:52:20.462 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 120.95492300063445
+2019-02-26 21:52:20.463 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - Data updated.
+2019-02-26 21:52:20.463 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.463 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 39.04126807939204
+2019-02-26 21:52:20.463 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 120.95492300063445
+2019-02-26 21:52:20.465 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.469 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.469 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-11.0, 3.0, -10.0, 2.0] is valid.
+2019-02-26 21:52:20.469 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.469 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.469 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-11.0, 3.0] is valid.
+2019-02-26 21:52:20.469 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -11.0, y = 3.0.
+2019-02-26 21:52:20.469 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.469 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-10.0, 2.0] is valid.
+2019-02-26 21:52:20.469 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -10.0, y = 2.0.
+2019-02-26 21:52:20.469 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.469 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.469 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.469 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.469 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.470 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 3.141592653589793
+2019-02-26 21:52:20.470 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 0.7853981633974483
+2019-02-26 21:52:20.470 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.480 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.480 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.480 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-10.0, 1.0, -7.0, -1.0] is valid.
+2019-02-26 21:52:20.480 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.480 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.480 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-10.0, 1.0] is valid.
+2019-02-26 21:52:20.480 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -10.0, y = 1.0.
+2019-02-26 21:52:20.480 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.480 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-7.0, -1.0] is valid.
+2019-02-26 21:52:20.480 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -7.0, y = -1.0.
+2019-02-26 21:52:20.480 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.481 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.481 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.481 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.481 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.481 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 7.853981633974483
+2019-02-26 21:52:20.481 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 4.71238898038469
+2019-02-26 21:52:20.481 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.481 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.481 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.481 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-6.0, 2.0, -5.0, -2.0] is valid.
+2019-02-26 21:52:20.481 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.481 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.481 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-6.0, 2.0] is valid.
+2019-02-26 21:52:20.481 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -6.0, y = 2.0.
+2019-02-26 21:52:20.481 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.481 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-5.0, -2.0] is valid.
+2019-02-26 21:52:20.481 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -5.0, y = -2.0.
+2019-02-26 21:52:20.481 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.481 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.481 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.481 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.481 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.481 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 7.853981633974483
+2019-02-26 21:52:20.481 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 3.141592653589793
+2019-02-26 21:52:20.481 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.481 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.481 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.482 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-3.0, 9.0, 1.0, 8.0] is valid.
+2019-02-26 21:52:20.482 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.482 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.482 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-3.0, 9.0] is valid.
+2019-02-26 21:52:20.482 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -3.0, y = 9.0.
+2019-02-26 21:52:20.482 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.482 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, 8.0] is valid.
+2019-02-26 21:52:20.482 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = 8.0.
+2019-02-26 21:52:20.482 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.482 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.482 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.482 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.482 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.482 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 7.853981633974483
+2019-02-26 21:52:20.482 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 3.141592653589793
+2019-02-26 21:52:20.482 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.482 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.482 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.482 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.0, 7.0, 1.0, 6.0] is valid.
+2019-02-26 21:52:20.482 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.482 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.482 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, 7.0] is valid.
+2019-02-26 21:52:20.482 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = 7.0.
+2019-02-26 21:52:20.482 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.482 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, 6.0] is valid.
+2019-02-26 21:52:20.482 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = 6.0.
+2019-02-26 21:52:20.482 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.482 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.482 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.482 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.482 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.482 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 3.141592653589793
+2019-02-26 21:52:20.482 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 0.7853981633974483
+2019-02-26 21:52:20.483 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.483 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.483 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.483 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-1.0, 5.0, 1.0, 3.0] is valid.
+2019-02-26 21:52:20.483 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.483 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.483 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-1.0, 5.0] is valid.
+2019-02-26 21:52:20.483 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -1.0, y = 5.0.
+2019-02-26 21:52:20.483 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.483 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, 3.0] is valid.
+2019-02-26 21:52:20.483 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = 3.0.
+2019-02-26 21:52:20.483 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.483 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.483 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.483 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.483 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.483 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 6.283185307179586
+2019-02-26 21:52:20.483 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 3.141592653589793
+2019-02-26 21:52:20.483 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.483 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.483 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.483 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-3.0, 1.0, 1.0, -2.0] is valid.
+2019-02-26 21:52:20.483 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.483 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.483 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-3.0, 1.0] is valid.
+2019-02-26 21:52:20.484 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -3.0, y = 1.0.
+2019-02-26 21:52:20.484 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.484 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, -2.0] is valid.
+2019-02-26 21:52:20.484 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -2.0.
+2019-02-26 21:52:20.484 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.484 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.484 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.484 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.484 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.484 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 10.995574287564276
+2019-02-26 21:52:20.485 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 9.42477796076938
+2019-02-26 21:52:20.486 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.486 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.486 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.486 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-2.0, 2.0, 12.0, -3.0] is valid.
+2019-02-26 21:52:20.486 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.486 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.486 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-2.0, 2.0] is valid.
+2019-02-26 21:52:20.486 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -2.0, y = 2.0.
+2019-02-26 21:52:20.486 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.486 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [12.0, -3.0] is valid.
+2019-02-26 21:52:20.486 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 12.0, y = -3.0.
+2019-02-26 21:52:20.486 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.486 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.486 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.486 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.486 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.486 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 29.845130209103033
+2019-02-26 21:52:20.486 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 54.97787143782138
+2019-02-26 21:52:20.486 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.486 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.486 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.486 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [4.0, 4.0, 6.0, -2.0] is valid.
+2019-02-26 21:52:20.486 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.486 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.487 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [4.0, 4.0] is valid.
+2019-02-26 21:52:20.487 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 4.0, y = 4.0.
+2019-02-26 21:52:20.487 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.487 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [6.0, -2.0] is valid.
+2019-02-26 21:52:20.487 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 6.0, y = -2.0.
+2019-02-26 21:52:20.487 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.487 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.487 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.487 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.487 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.487 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 12.566370614359172
+2019-02-26 21:52:20.487 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 9.42477796076938
+2019-02-26 21:52:20.487 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.487 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.487 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.487 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [0.0, -4.0, 2.0, -6.0] is valid.
+2019-02-26 21:52:20.487 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.487 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.487 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, -4.0] is valid.
+2019-02-26 21:52:20.487 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = -4.0.
+2019-02-26 21:52:20.487 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.487 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [2.0, -6.0] is valid.
+2019-02-26 21:52:20.487 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 2.0, y = -6.0.
+2019-02-26 21:52:20.487 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.487 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.487 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.487 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.487 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.488 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 6.283185307179586
+2019-02-26 21:52:20.488 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 3.141592653589793
+2019-02-26 21:52:20.488 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.488 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.488 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.488 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-4.0, -5.0, 0.0, -8.0] is valid.
+2019-02-26 21:52:20.488 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.488 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.488 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-4.0, -5.0] is valid.
+2019-02-26 21:52:20.488 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -4.0, y = -5.0.
+2019-02-26 21:52:20.488 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.488 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [0.0, -8.0] is valid.
+2019-02-26 21:52:20.488 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 0.0, y = -8.0.
+2019-02-26 21:52:20.488 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.488 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.488 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.488 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.488 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.488 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 10.995574287564276
+2019-02-26 21:52:20.488 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 9.42477796076938
+2019-02-26 21:52:20.488 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.489 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.489 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.489 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [2.0, -8.0, 4.0, -10.0] is valid.
+2019-02-26 21:52:20.489 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.489 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.489 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [2.0, -8.0] is valid.
+2019-02-26 21:52:20.489 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 2.0, y = -8.0.
+2019-02-26 21:52:20.489 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.489 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [4.0, -10.0] is valid.
+2019-02-26 21:52:20.489 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 4.0, y = -10.0.
+2019-02-26 21:52:20.489 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.489 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.489 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.489 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.489 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.489 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 6.283185307179586
+2019-02-26 21:52:20.489 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 3.141592653589793
+2019-02-26 21:52:20.489 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.489 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.489 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.489 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [6.0, -5.0, 7.0, -6.0] is valid.
+2019-02-26 21:52:20.489 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.489 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.490 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [6.0, -5.0] is valid.
+2019-02-26 21:52:20.490 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 6.0, y = -5.0.
+2019-02-26 21:52:20.491 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.491 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [7.0, -6.0] is valid.
+2019-02-26 21:52:20.491 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 7.0, y = -6.0.
+2019-02-26 21:52:20.491 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.491 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.491 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.491 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.491 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.491 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 3.141592653589793
+2019-02-26 21:52:20.491 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 0.7853981633974483
+2019-02-26 21:52:20.491 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.491 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.491 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.491 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [7.0, -6.0, 9.0, -8.0] is valid.
+2019-02-26 21:52:20.491 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.491 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.491 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [7.0, -6.0] is valid.
+2019-02-26 21:52:20.491 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 7.0, y = -6.0.
+2019-02-26 21:52:20.491 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.491 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [9.0, -8.0] is valid.
+2019-02-26 21:52:20.491 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 9.0, y = -8.0.
+2019-02-26 21:52:20.491 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.491 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.491 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.491 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.491 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.491 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 6.283185307179586
+2019-02-26 21:52:20.491 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 3.141592653589793
+2019-02-26 21:52:20.491 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.
+2019-02-26 21:52:20.492 [main] DEBUG tolkun.ellipse.factory.geometry.ObservableEllipseFactory - ObservableEllipseFactory created.
+2019-02-26 21:52:20.492 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - EllipseValidator created.
+2019-02-26 21:52:20.492 [main] DEBUG by.tolkun.ellipse.validator.EllipseValidator - Dataset [-3.0, -10.0, 1.0, -12.0] is valid.
+2019-02-26 21:52:20.492 [main] DEBUG tolkun.ellipse.factory.geometry.Point2DFactory - Point2DFactory created.
+2019-02-26 21:52:20.492 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.492 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [-3.0, -10.0] is valid.
+2019-02-26 21:52:20.492 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = -3.0, y = -10.0.
+2019-02-26 21:52:20.492 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Point2DValidator created.
+2019-02-26 21:52:20.492 [main] DEBUG by.tolkun.ellipse.validator.Point2DValidator - Dataset [1.0, -12.0] is valid.
+2019-02-26 21:52:20.492 [main] DEBUG tolkun.ellipse.entity.geometry.Point2D - Point created: x = 1.0, y = -12.0.
+2019-02-26 21:52:20.492 [main] DEBUG tolkun.ellipse.entity.geometry.Ellipse - Ellipse created.
+2019-02-26 21:52:20.492 [main] DEBUG tolkun.ellipse.entity.geometry.ObservableEllipse - ObservableEllipse created.
+2019-02-26 21:52:20.492 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorderBuilder created.
+2019-02-26 21:52:20.493 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder created.
+2019-02-26 21:52:20.493 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - EllipseAction created.
+2019-02-26 21:52:20.493 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Perimeter calculated: 9.42477796076938
+2019-02-26 21:52:20.494 [main] DEBUG by.tolkun.ellipse.action.EllipseAction - Square calculated: 6.283185307179586
+2019-02-26 21:52:20.494 [main] DEBUG tolkun.ellipse.entity.recorder.EllipseRecorder - EllipseRecorder built.

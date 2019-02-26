@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+    <parameter name="example" value="hello"/>
+    <test name="Unit tests">
+        <parameter name="example" value="0.1"/>
+        <classes>
+            <class name="test.ellipse.validator.StringValidatorTest"/>
+            <class name="test.ellipse.parser.DoubleArrayParserTest"/>
+            <class name="test.ellipse.validator.Point2DValidatorTest"/>
+            <class name="test.ellipse.validator.EllipseValidatorTest"/>
+            <class name="test.ellipse.factory.geometry.Point2DFactoryTest"/>
+            <class name="test.ellipse.factory.geometry.EllipseFactoryTest"/>
+            <class name="test.ellipse.factory.geometry.ObservableEllipseFactoryTest"/>
+            <class name="test.ellipse.action.EllipseActionTest"/>
+            <class name="test.ellipse.factory.recorder.EllipseRecorderBuilderTest"/>
+            <class name="test.ellipse.entity.EllipseRecorderTest"/>
+            <class name="test.ellipse.repository.EllipseRepositoryTest"/>
+        </classes>
+    </test>
+</suite>
+
+
