@@ -23,7 +23,7 @@ public class DataReader {
     public static final Logger LOGGER = LogManager.getLogger(DataReader.class);
 
     /**
-     * Constructor with parameter of class {@code DataReader}.
+     * Default constructor.
      */
     public DataReader() {
         LOGGER.debug("DataReader created.");
