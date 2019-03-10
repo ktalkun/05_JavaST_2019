@@ -103,7 +103,8 @@ public class RestaurantCashier {
             order.complete();
             RestaurantCheckFactory checkFactory
                     = new RestaurantCheckFactory();
-            check = checkFactory.createCheck(id, order.getId(), order.getComplexity());
+            check = checkFactory
+                    .createCheck(id, order.getId(), order.getComplexity());
         } catch (InterruptedException e) {
             LOGGER.error(e);
             Thread.currentThread().interrupt();
@@ -116,8 +117,6 @@ public class RestaurantCashier {
         }
 
         return check;
-
-//        return new RestaurantCheck(id, order.getId(), order.getComplexity());
     }
 
     /**

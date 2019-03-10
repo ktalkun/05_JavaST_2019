@@ -1,5 +1,6 @@
 package by.tolkun.cashier.entity;
 
+import by.tolkun.cashier.exception.CashierAmountException;
 import by.tolkun.cashier.repository.Restaurant;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -60,19 +61,13 @@ public class RestaurantCustomer implements Callable<List<RestaurantCheck>> {
     /**
      * Constructor with parameters.
      *
-     * @param inputOrders      the list of orders
-     * @param inputRestaurant  where orders will be served by cashiers
+     * @param inputRestaurant where orders will be served by cashiers
      */
-    public RestaurantCustomer(final List<RestaurantOrder> inputOrders,
-                              final Restaurant inputRestaurant) {
+    public RestaurantCustomer(final Restaurant inputRestaurant) {
         id = ++count;
-        orders = new ArrayList<>(inputOrders);
+        orders = new ArrayList<>();
         restaurant = inputRestaurant;
-        LOGGER.debug("RestaurantCustomer created."
-                + (orders
-                .stream()
-                .anyMatch(RestaurantOrder::isPreOrder) ? "With" : "Without")
-                + " pre order.");
+        LOGGER.debug("RestaurantCustomer created.");
     }
 
     /**
@@ -94,6 +89,16 @@ public class RestaurantCustomer implements Callable<List<RestaurantCheck>> {
     }
 
     /**
+     * Add order.
+     *
+     * @param order to add
+     * @return {@code true} if {@code order} added, {@code false} otherwise
+     */
+    public boolean addOrder(final RestaurantOrder order) {
+        return orders.add(order);
+    }
+
+    /**
      * Serve {@code Order} in {@code Reentrant} by {@code Cashier}.
      *
      * @return {@code Check} with information about serving {@code Customer} by
@@ -105,6 +110,9 @@ public class RestaurantCustomer implements Callable<List<RestaurantCheck>> {
         RestaurantCashier cashier;
         RestaurantCheck check;
         List<RestaurantCheck> checks = new ArrayList<>();
+        if (restaurant.getCapasity() == 0) {
+            throw new CashierAmountException("No cashiers");
+        }
         for (RestaurantOrder order : orders) {
             if (order.isPreOrder()) {
                 cashier = restaurant.getCashier(new Random()
@@ -148,32 +156,6 @@ public class RestaurantCustomer implements Callable<List<RestaurantCheck>> {
         }
 
         return checks;
-
-
-//        if (priority == CustomerPriority.LOW) {
-//            lock.lock();
-//            cashier = restaurant.findCashierByShortestQueue();
-//            cashier.incQueueLength();
-//            System.out.printf("%9s%2d [%-4s] %s%n", "Customer-", id, priority,
-//                    "found cashier. " + cashier);
-//            LOGGER.debug("Customer-" + id
-//                    + " [" + priority + "] found cashier: " + cashier);
-//            lock.unlock();
-//        } else {
-//            cashier = restaurant
-//                    .getCashier(new Random().nextInt(restaurant.getCapasity()));
-//            cashier.incQueueLength();
-//            System.out.printf("%9s%2d [%-4s] %s%n", "Customer-", id, priority,
-//                    "found cashier. " + cashier);
-//            LOGGER.debug("Customer-" + id
-//                    + " [" + priority + "] found cashier: " + cashier);
-//        }
-//
-//        check = cashier.serve(this);
-//        System.out.printf("%9s%2d [%-4s] %s%n", "Customer-", id, priority,
-//                "served. " + check);
-//        LOGGER.debug("Customer-" + id
-//                + " [" + priority + "] served. Check: " + check);
     }
 
     /**
