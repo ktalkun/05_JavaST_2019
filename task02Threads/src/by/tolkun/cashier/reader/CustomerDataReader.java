@@ -1,5 +1,7 @@
 package by.tolkun.cashier.reader;
 
+import by.tolkun.cashier.exception.WrongArgumetException;
+import by.tolkun.cashier.validator.FileValidator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -35,9 +37,15 @@ public class CustomerDataReader {
      *
      * @param path of file for reading
      * @return {@code List<List<String>>} with groups of text lines
+     * @throws WrongArgumetException if file is invalid
      */
-    public List<List<String>> read(final String path) {
-        List<String> textLines = new ArrayList<>();
+    public List<List<String>> read(final String path)
+            throws WrongArgumetException {
+        FileValidator fileValidator = new FileValidator();
+        if (!fileValidator.isValid(path)) {
+            throw new WrongArgumetException("Invalid file.");
+        }
+            List<String> textLines = new ArrayList<>();
         try {
             textLines = Files.readAllLines(Paths.get(path),
                     StandardCharsets.UTF_8);

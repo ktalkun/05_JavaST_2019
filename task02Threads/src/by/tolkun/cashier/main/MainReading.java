@@ -45,8 +45,9 @@ public final class MainReading {
      * Run application.
      *
      * @param args of console
+     * @throws WrongArgumetException if file for reading is invalid
      */
-    public static void main(final String[] args) {
+    public static void main(final String[] args) throws WrongArgumetException {
 //        Create and add cashiers to restaurant
         RestaurantCashierFactory restaurantCashierFactory
                 = new RestaurantCashierFactory();
@@ -57,7 +58,13 @@ public final class MainReading {
 
 //        Read input.txt
         CustomerDataReader reader = new CustomerDataReader();
-        List<List<String>> groupsLines = reader.read("data/input.txt");
+        List<List<String>> groupsLines = null;
+        try {
+            groupsLines = reader.read("data/input.txt");
+        } catch (WrongArgumetException e) {
+            LOGGER.error(e);
+            throw new WrongArgumetException(e);
+        }
 
 //        Create and run customers
         ExecutorService executorService = Executors.newCachedThreadPool();
