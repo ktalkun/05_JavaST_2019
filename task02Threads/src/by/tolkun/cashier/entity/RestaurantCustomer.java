@@ -120,7 +120,7 @@ public class RestaurantCustomer implements Callable<List<RestaurantCheck>> {
                 preOrderLock.lock();
                 cashier.incQueueLength();
                 System.out.printf("%9s%2d %6s%2d [%-5s] %s%n",
-                        "Customer-", id,
+                        "Thread-", id,
                         "Order-", order.getId(),
                         "PRE",
                         "found cashier. " + cashier);
@@ -133,7 +133,7 @@ public class RestaurantCustomer implements Callable<List<RestaurantCheck>> {
                 cashier = restaurant.findCashierByShortestQueue();
                 cashier.incQueueLength();
                 System.out.printf("%9s%2d %6s%2d [%-5s] %s%n",
-                        "Customer-", id,
+                        "Thread-", id,
                         "Order-", order.getId(),
                         "NOPRE",
                         "found cashier. " + cashier);
@@ -143,15 +143,6 @@ public class RestaurantCustomer implements Callable<List<RestaurantCheck>> {
                 defaultOrderLock.unlock();
             }
             check = cashier.serve(order);
-            System.out.printf("%9s%2d %6s%2d [%-5s] %s%n",
-                    "Customer-", id,
-                    "Order-", order.getId(),
-                    order.isPreOrder() ? "PRE" : "NOPRE",
-                    " served. Check: " + check);
-            LOGGER.debug("Customer-" + id
-                    + "Order-" + order.getId()
-                    + (order.isPreOrder() ? "[PRE]" : "[NOPRE]")
-                    + " served. Check: " + check);
             checks.add(check);
         }
 

@@ -80,7 +80,6 @@ public class RestaurantCashier {
         queueLength++;
     }
 
-
     /**
      * Serve order.
      *
@@ -105,6 +104,15 @@ public class RestaurantCashier {
                     = new RestaurantCheckFactory();
             check = checkFactory
                     .createCheck(id, order.getId(), order.getComplexity());
+            System.out.printf("%9s%2d %6s%2d [%-5s] %s%n",
+                    "Thread-", Thread.currentThread().getId(),
+                    "Order-", order.getId(),
+                    order.isPreOrder() ? "PRE" : "NOPRE",
+                    "served. Check: " + check);
+            LOGGER.debug("Customer-" + id
+                    + "Order-" + order.getId()
+                    + (order.isPreOrder() ? "[PRE]" : "[NOPRE]")
+                    + " served. Check: " + check);
         } catch (InterruptedException e) {
             LOGGER.error(e);
             Thread.currentThread().interrupt();
