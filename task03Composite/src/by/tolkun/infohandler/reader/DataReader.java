@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.stream.Collectors;
 
 /**
  * Class for reading text files.
@@ -45,8 +44,8 @@ public class DataReader {
 
         String result = "";
         try {
-            result = Files.readAllLines(Paths.get(path),
-                    StandardCharsets.UTF_8).stream().collect(Collectors.joining());
+            result = String.join("", Files.readAllLines(Paths.get(path),
+                    StandardCharsets.UTF_8));
         } catch (IOException e) {
             LOGGER.error(e);
         }
