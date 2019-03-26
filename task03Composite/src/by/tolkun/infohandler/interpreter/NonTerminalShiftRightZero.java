@@ -8,8 +8,7 @@ import org.apache.logging.log4j.Logger;
  *
  * @author Kirill Tolkun
  */
-public class NonTerminalShiftRightZero
-        implements AbstractBitExpression {
+public class NonTerminalShiftRightZero extends BinaryNonTerminal {
 
     /**
      * Logger of class {@code NonTerminalShiftRightZero}.
@@ -21,18 +20,7 @@ public class NonTerminalShiftRightZero
      * Default constructor.
      */
     public NonTerminalShiftRightZero() {
+        operator = (integer1, integer2) -> integer1 >>> integer2;
         LOGGER.debug("NonTerminalShiftRightZero created.");
-    }
-
-    /**
-     * Interpret not terminal as operator SHIFT_RIGHT_FILL_ZERO.
-     *
-     * @param context to cache numbers during the calculating
-     */
-    @Override
-    public void interpret(final Context context) {
-        int rightOperand = context.popValue();
-        int leftOperand = context.popValue();
-        context.pushValue(leftOperand >>> rightOperand);
     }
 }

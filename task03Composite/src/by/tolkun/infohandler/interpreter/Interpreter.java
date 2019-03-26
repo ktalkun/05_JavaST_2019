@@ -26,7 +26,7 @@ public class Interpreter {
      * Pattern of bit terminals.
      */
     private static final Pattern LEXEME_PATTERN
-            = Pattern.compile("(\\d+)|(<{2}|>{2,3}|[~&\\|\\^])");
+            = Pattern.compile("([+-]?\\d+)|(<{2}|>{2,3}|[~&\\|\\^])");
 
     /**
      * Logger of class {@code Interpreter}.
@@ -98,11 +98,15 @@ public class Interpreter {
      * Calculate bit expression.
      *
      * @return result of calculation bit expression
+     * @throws WrongArgumentException if expression for calculating is invalid
      */
-    public int calculate() {
+    public int calculate() throws WrongArgumentException {
         Context context = new Context();
         for (AbstractBitExpression terminal : listExpression) {
             terminal.interpret(context);
+        }
+        if (context.size() != 1) {
+            throw new WrongArgumentException("Invalid expression.");
         }
         return context.popValue();
     }

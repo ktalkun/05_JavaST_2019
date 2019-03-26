@@ -48,4 +48,13 @@ public class Context {
     public void pushValue(final Integer value) {
         contextValues.push(value);
     }
+
+    /**
+     * Retunr size of context.
+     *
+     * @return number of numbers in context
+     */
+    public int size() {
+        return contextValues.size();
+    }
 }

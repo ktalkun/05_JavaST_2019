@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
  *
  * @author Kirill Tolkun
  */
-public class NonTerminalAnd implements AbstractBitExpression {
+public class NonTerminalAnd extends BinaryNonTerminal {
 
     /**
      * Logger of class {@code NonTerminalAnd}.
@@ -20,18 +20,7 @@ public class NonTerminalAnd implements AbstractBitExpression {
      * Default constructor.
      */
     public NonTerminalAnd() {
+        operator = (integer1, integer2) -> integer1 & integer2;
         LOGGER.debug("NonTerminalAnd created.");
-    }
-
-    /**
-     * Interpret not terminal as operator AND.
-     *
-     * @param context to cache numbers during the calculating
-     */
-    @Override
-    public void interpret(final Context context) {
-        int rightOperand = context.popValue();
-        int leftOperand = context.popValue();
-        context.pushValue(leftOperand & rightOperand);
     }
 }

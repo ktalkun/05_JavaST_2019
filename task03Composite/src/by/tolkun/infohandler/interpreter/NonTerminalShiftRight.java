@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
  *
  * @author Kirill Tolkun
  */
-public class NonTerminalShiftRight implements AbstractBitExpression {
+public class NonTerminalShiftRight extends BinaryNonTerminal {
 
     /**
      * Logger of class {@code NonTerminalShiftRight}.
@@ -20,18 +20,7 @@ public class NonTerminalShiftRight implements AbstractBitExpression {
      * Default constructor.
      */
     public NonTerminalShiftRight() {
+        operator = (integer1, integer2) -> integer1 >> integer2;
         LOGGER.debug("NonTerminalShiftRight created.");
-    }
-
-    /**
-     * Interpret not terminal as operator SHIFT_RIGHT.
-     *
-     * @param context to cache numbers during the calculating
-     */
-    @Override
-    public void interpret(final Context context) {
-        int rightOperand = context.popValue();
-        int leftOperand = context.popValue();
-        context.pushValue(leftOperand >> rightOperand);
     }
 }
