@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+    <parameter name="example" value="hello"/>
+    <test name="Unit tests">
+        <parameter name="example" value="0.1"/>
+        <classes>
+            <class name="test.infohandler.parser.PolishParserTest"/>
+            <class name="test.infohandler.parser.TextParserTest"/>
+            <class name="test.infohandler.parser.WordParserTest"/>
+            <class name="test.infohandler.interpreter.InterpreterTest"/>
+            <class name="test.infohandler.composite.visitor.impl.LexemeVisitorTest"/>
+        </classes>
+    </test>
+</suite>
+
+
