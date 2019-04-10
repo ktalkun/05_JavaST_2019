@@ -13,7 +13,7 @@
         <Console name="Console" target="SYSTEM_OUT">
             <PatternLayout pattern="${patternshort}" />
         </Console>
-        <File name="TxtFile" fileName="log/by.tolkun.ellipse.log" bufferedIO="true">
+        <File name="TxtFile" fileName="log/by.tolkun.infohandler.log" bufferedIO="true">
             <PatternLayout pattern="${patternfull}" />
         </File>
     </Appenders>

@@ -10,6 +10,8 @@
             <class name="test.infohandler.parser.TextParserTest"/>
             <class name="test.infohandler.parser.WordParserTest"/>
             <class name="test.infohandler.interpreter.InterpreterTest"/>
+            <class name="test.infohandler.composite.strategy.SortLexemeBySymbolsStrategyTest"/>
+            <class name="test.infohandler.composite.strategy.SortParagraphsBySentencesStrategyTest"/>
             <class name="test.infohandler.composite.visitor.impl.LexemeVisitorTest"/>
         </classes>
     </test>

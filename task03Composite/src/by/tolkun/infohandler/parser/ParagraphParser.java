@@ -59,7 +59,7 @@ public class ParagraphParser extends Parser {
             nextParser.parse(sentenceMatcher.group().trim(), sentence);
             hasParagraphs = true;
         }
-        if(!hasParagraphs){
+        if (!hasParagraphs) {
             TextComposite sentence
                     = new TextComposite(TextComponentType.SENTENCE);
             textComponent.add(sentence);

@@ -81,8 +81,8 @@ public class TextParserTest {
     /**
      * Test positive script in method {@code TextParser::parse}.
      *
-     * @param actualString for validating
-     * @param expected     list of text components
+     * @param actualString text to parse as {@code String}
+     * @param expected     text as {@code String}
      * @throws ParserException if {@code actualString} is invalid to parse
      */
     @Test(description = "positive script",
