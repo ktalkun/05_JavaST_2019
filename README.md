@@ -3,6 +3,7 @@
     + Task02Objects-A
     + Task02Objects-B
 2. [Task02Threads](#task02threads)
+2. [Task03Composite](#task03composite)
 
 # Task01Objects
 ### Task:
@@ -183,3 +184,114 @@ by.tolkun.cashier/
         └── StringValidator.class
                 Class for validation on the possibility of parsing into RestaurantOrder.
 ```
+# Task03Composite
+### Task:
+
+> Создать приложение, разбирающее текст из файла и позволяющее выполнять с текстом три различные операции:
+> 1. Отсортировать обзацы по количеству предложений;
+> 2. В каждом предложении отсортировать слова по длине;
+> 3. Отсортировать лексемы в тексте по убыванию количества вхождений заданного символа, а в случае равенства - по алфивиту;
+
+### Using in project
+##### External libraries:
+- `log4g2-2.11.2` - Logging debug information, warns, exception description.
+- `testng-6.14.3` - Unit testing project classes.
+##### Plugins:
+-   `Sketch it` - Automatic generation *UML diagrams* by module, by package, by class.
+-   `Plant UML` - Visualization *UML diagrams* generatred by *Sketch it*.
+##### Patterns:
+- `Composite`
+- `Interpreter`
+- `Chain of responsibility`
+- `Visitor`
+- `Strategy`
+### Project architecture
+![task03Composite](https://i.ibb.co/fkrLcWS/task03-Composite.png)
+```
+by.tolkun.infohandler/
+├── action/
+|       └── LexemeListSorter.class
+|               Class to sort lexeme list by descending number of occurrences of a given character.
+├── composite/
+|       ├── strategy/
+|       |       ├── SortLexemeBySymbolsStrategy.class
+|       |       |       Class for sorting words by the length.
+|       |       ├── SortParagraphsBySentencesStrategy.class
+|       |       |       Class for sorting paragraphs by the number of sentences.
+|       |       └── SortTextStrategy.class
+|       |               Abstract class of sort strategy.
+|       ├── visitor/
+|       |       ├── impl/
+|       |       |       └── LexemeVisitor.class
+|       |       |               Visitor to traversal text components of composite and form lexeme list.
+|       |       ├── Visitable.class
+|       |       |       Interface for classes allow to visit and traversal them.
+|       |       └── Visitor.class
+|       |               Interface for visitor classes.
+|       ├── Symbol.class
+|       |       Class of leaf text component.
+|       ├── TextComponent.class
+|       |       Abstract class to provide work with composite.
+|       ├── TextComponentType.class
+|       |       Class to present type of {@code TextComponent}.
+|       └── TextComposite.class
+|               Composite class of text to store and work with different text components.
+├── exception/
+|       ├── ParserException.class
+|       |       Class of {@code Exception} reflection wrong input data to parse.
+|       ├── UnsupportedMethodException.class
+|       |       Class of {@code Exception} reflection wrong function all.
+|       └── WrongArgumentException.class
+|               Class of {@code Exception} reflection wrong input data.
+├── interpreter/
+|       ├── AbstractBitExpression.class
+|       |       Abstract class interpretable bit expressions.
+|       ├── BinaryNonTerminal.class
+|       |       Abstract class of not terminal operator with two operands.
+|       ├── Context.class
+|       |       Class to store cache values during the calculating.
+|       ├── Interpreter.class
+|       |       Class for interpreting (calculation) bit expression.
+|       ├── NonTerminalAnd.class
+|       |       Class to interpret not terminal as bit operation AND.
+|       ├── NonTerminalNot.class
+|       |       Class to interpret not terminal as bit operation NOT.
+|       ├── NonTerminalOr.class
+|       |       Class to interpret not terminal as bit operation OR.
+|       ├── NonTerminalShiftLeft.class
+|       |       Class to interpret not terminal as bit operation SHIFT_LEFT.
+|       ├── NonTerminalShiftRight.class
+|       |       Class to interpret not terminal as bit operation SHIFT_RIGHT.
+|       ├── NonTerminalShiftRightZero.class
+|       |       Class to interpret not terminal as bit operation SHIFT_RIGHT_FILL_ZERO.
+|       ├── NonTerminalXor.class
+|       |       Class to interpret not terminal as bit operation XOR.
+|       ├── TerminalNumber.class
+|       |       Class to interpret terminal as number.
+|       └── UnaryNonTerminal.class
+|               Abstract class of not terminal operator with one operand.
+├── parser/
+|       ├── LexemeParser.class
+|       |       Class to parse string into lexemes.
+|       ├── ParagraphParser.class
+|       |       Class to parse string into sentences.
+|       ├── Parser.class
+|       |       Abstract parser to realize common behavior.
+|       ├── PolishParser.class
+|       |       Class to parse infix expression to postfix (polish) expression.
+|       ├── SentenceParser.class
+|       |       Class to parse string into lexemes with whitespace.
+|       ├── TextParser.class
+|       |       Class to parse string into paragraphs.
+|       └── WordParser.class
+|               Class to parse string into symbols.
+├── reader/
+|       └── DataReader.class
+|               Class for reading text files.
+└── validator/
+        └── FileValidator.class
+                Class for validation on the possibility of reading file.
+```
+
+### Remarks:
+>1. In unit testing in order to create actual and expected objects data takes from the files.
