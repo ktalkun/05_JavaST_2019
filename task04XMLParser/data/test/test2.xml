@@ -1,0 +1,34 @@
+<medicines xmlns="http://www.tolkun.by/xmlparser"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.tolkun.by/xmlparser ../medicines.xsd">
+    <medicine>
+        <name>Валериана</name>
+        <group>sedatives</group>
+        <analogs>Валериана Форте</analogs>
+        <analogs>Валерианы настойка</analogs>
+        <versions>
+            <version type="liquid">
+                <company name="БЕЛМЕДПРЕПАРАТЫ">
+                    <package type="bottle">
+                        <quantity>1</quantity>
+                        <price>2.99</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period>1</period>
+                    </dosage>
+                </company>
+                <company name="Apotex">
+                    <package type="bottle">
+                        <quantity>1</quantity>
+                        <price currency="BYN">5.20</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period type="day">1</period>
+                    </dosage>
+                </company>
+            </version>
+        </versions>
+    </medicine>
+</medicines>

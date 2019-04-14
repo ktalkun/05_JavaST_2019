@@ -1,0 +1,38 @@
+<medicines xmlns="http://www.tolkun.by/xmlparser"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.tolkun.by/xmlparser ../medicines.xsd">
+    <medicine>
+        <name>Амитриптилин</name>
+        <group>antidepressants</group>
+        <analogs>Имипрамин</analogs>
+        <analogs>Мапротилин</analogs>
+        <analogs>Кломипрамин</analogs>
+        <analogs>Миансерин</analogs>
+        <versions>
+            <version type="capsules">
+                <company name="БЕЛМЕДПРЕПАРАТЫ">
+                    <package type="box">
+                        <quantity>20</quantity>
+                        <price>22.90</price>
+                    </package>
+                    <dosage>
+                        <size>2</size>
+                        <period type="day">1</period>
+                    </dosage>
+                </company>
+            </version>
+            <version type="tablets">
+                <company name="Solvay Farma">
+                    <package type="box">
+                        <quantity>30</quantity>
+                        <price>21.35</price>
+                    </package>
+                    <dosage>
+                        <size>1</size>
+                        <period>1</period>
+                    </dosage>
+                </company>
+            </version>
+        </versions>
+    </medicine>
+</medicines>

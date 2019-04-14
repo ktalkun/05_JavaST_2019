@@ -1,0 +1,22 @@
+<medicines xmlns="http://www.tolkun.by/xmlparser"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.tolkun.by/xmlparser ../medicines.xsd">
+    <medicine>
+        <name>Антиоксикапс</name>
+        <group>vitamins</group>
+        <versions>
+            <version type="capsules">
+                <company name="БЕЛМЕДПРЕПАРАТЫ">
+                    <package type="box">
+                        <quantity>20</quantity>
+                        <price>3.29</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period type="day">1</period>
+                    </dosage>
+                </company>
+            </version>
+        </versions>
+    </medicine>
+</medicines>
