@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<medicines xmlns="http://www.tolkun.by/xmlparser"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://www.tolkun.by/xmlparser medicines.xsd">
+    <medicine>
+        <name>Амоксицилин</name>
+        <group>antibiotics</group>
+        <analogs>Ампицилин</analogs>
+        <analogs>Метанол</analogs>
+        <versions>
+            <version type="liquid">
+                <company-certificate name="БЕЛМЕДПРЕПАРАТЫ">
+                    <package type="ampule">
+                        <quantity>1</quantity>
+                        <price currency="BYN">2.91</price>
+                    </package>
+                    <dosage>
+                        <size>1</size>
+                        <period type="day">3</period>
+                    </dosage>
+                    <certificate number="id-12190">
+                        <date-issue>2018-05-22</date-issue>
+                        <date-expiration>2019-09-22</date-expiration>
+                        <reg-organization>BelMedicines</reg-organization>
+                    </certificate>
+                </company-certificate>
+                <company-certificate name="Bayer AG">
+                    <package type="box">
+                        <quantity>15</quantity>
+                        <price currency="BYN">31.99</price>
+                    </package>
+                    <dosage>
+                        <size>1</size>
+                        <period type="day">3</period>
+                    </dosage>
+                    <certificate number="id-39187">
+                        <date-issue>2019-03-11</date-issue>
+                        <date-expiration>2021-03-11</date-expiration>
+                        <reg-organization>BelMedicines</reg-organization>
+                    </certificate>
+                </company-certificate>
+            </version>
+            <version type="tablets">
+                <company-certificate name="Merck Serono">
+                    <package type="box">
+                        <quantity>30</quantity>
+                        <price currency="BYN">8.79</price>
+                    </package>
+                    <dosage>
+                        <size>2</size>
+                        <period type="day">5</period>
+                    </dosage>
+                    <certificate number="id-98197">
+                        <date-issue>2019-02-17</date-issue>
+                        <date-expiration>2022-09-17</date-expiration>
+                        <reg-organization>BelHealth</reg-organization>
+                    </certificate>
+                </company-certificate>
+            </version>
+        </versions>
+    </medicine>
+    <medicine>
+        <name>Вильпрафен</name>
+        <group>antibiotics</group>
+        <analogs>Вильпрафен солютаб</analogs>
+        <analogs>Супракс солютаб</analogs>
+        <versions>
+            <version type="tablets">
+                <company-certificate name="БЕЛМЕДПРЕПАРАТЫ">
+                    <package type="package">
+                        <quantity>40</quantity>
+                        <price>9.99</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period>1</period>
+                    </dosage>
+                    <certificate number="id-56395">
+                        <date-issue>2018-03-17</date-issue>
+                        <date-expiration>2021-03-17</date-expiration>
+                        <reg-organization>BelREG</reg-organization>
+                    </certificate>
+                </company-certificate>
+            </version>
+            <version type="capsules">
+                <company-certificate name="Organon">
+                    <package type="package">
+                        <quantity>50</quantity>
+                        <price currency="USD">21.35</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period>1</period>
+                    </dosage>
+                    <certificate number="id-94112">
+                        <date-issue>2015-12-28</date-issue>
+                        <date-expiration>2021-06-28</date-expiration>
+                        <reg-organization>GermanyMed</reg-organization>
+                    </certificate>
+                </company-certificate>
+            </version>
+        </versions>
+    </medicine>
+    <medicine>
+        <name>Антиоксикапс</name>
+        <group>vitamins</group>
+        <versions>
+            <version type="capsules">
+                <company name="БЕЛМЕДПРЕПАРАТЫ">
+                    <package type="box">
+                        <quantity>20</quantity>
+                        <price>3.29</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period type="day">1</period>
+                    </dosage>
+                </company>
+            </version>
+        </versions>
+    </medicine>
+    <medicine>
+        <name>Ревит</name>
+        <group>vitamins</group>
+        <versions>
+            <version type="capsules">
+                <company name="БЕЛМЕДПРЕПАРАТЫ">
+                    <package type="package">
+                        <quantity>50</quantity>
+                        <price currency="BYN">4.20</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period type="day">1</period>
+                    </dosage>
+                </company>
+                <company name="Oriental Secrets">
+                    <package type="box">
+                        <quantity>100</quantity>
+                        <price currency="BYN">4.00</price>
+                    </package>
+                    <dosage>
+                        <size>6</size>
+                        <period>1</period>
+                    </dosage>
+                </company>
+            </version>
+            <version type="tablets">
+                <company name="Merck Serono">
+                    <package type="box">
+                        <quantity>30</quantity>
+                        <price currency="BYN">8.79</price>
+                    </package>
+                    <dosage>
+                        <size>2</size>
+                        <period>1</period>
+                    </dosage>
+                </company>
+            </version>
+            <version type="liquid">
+                <company name="Алтайвитамины">
+                    <package type="box">
+                        <quantity>60</quantity>
+                        <price currency="BYN">3.35</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period type="day">2</period>
+                    </dosage>
+                </company>
+            </version>
+        </versions>
+    </medicine>
+    <medicine>
+        <name>Валериана</name>
+        <group>sedatives</group>
+        <analogs>Валериана Форте</analogs>
+        <analogs>Валерианы настойка </analogs>
+        <versions>
+            <version type="liquid">
+                <company name="БЕЛМЕДПРЕПАРАТЫ">
+                    <package type="bottle">
+                        <quantity>1</quantity>
+                        <price>2.99</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period>1</period>
+                    </dosage>
+                </company>
+                <company name="Apotex">
+                    <package type="bottle">
+                        <quantity>1</quantity>
+                        <price currency="BYN">5.20</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period type="day">1</period>
+                    </dosage>
+                </company>
+            </version>
+        </versions>
+    </medicine>
+    <medicine>
+        <name>Амитриптилин</name>
+        <group>antidepressants</group>
+        <analogs>Имипрамин</analogs>
+        <analogs>Мапротилин</analogs>
+        <analogs>Кломипрамин</analogs>
+        <analogs>Миансерин</analogs>
+        <versions>
+            <version type="capsules">
+                <company name="БЕЛМЕДПРЕПАРАТЫ">
+                    <package type="box">
+                        <quantity>20</quantity>
+                        <price>22.90</price>
+                    </package>
+                    <dosage>
+                        <size>2</size>
+                        <period type="day">1</period>
+                    </dosage>
+                </company>
+            </version>
+            <version type="tablets">
+                <company name="Solvay Farma">
+                    <package type="box">
+                        <quantity>30</quantity>
+                        <price>21.35</price>
+                    </package>
+                    <dosage>
+                        <size>1</size>
+                        <period>1</period>
+                    </dosage>
+                </company>
+            </version>
+        </versions>
+    </medicine>
+    <medicine>
+        <name>Моклобемид</name>
+        <group>antidepressants</group>
+        <analogs>Бефол</analogs>
+        <analogs>Селегилин</analogs>
+        <analogs>Разагилин</analogs>
+        <versions>
+            <version type="capsules">
+                <company-certificate name="Pliva">
+                    <package type="package">
+                        <quantity>40</quantity>
+                        <price>35.99</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period>1</period>
+                    </dosage>
+                    <certificate number="id-65123">
+                        <date-issue>2019-01-22</date-issue>
+                        <date-expiration>2022-07-22</date-expiration>
+                        <reg-organization>EuropeMedReg</reg-organization>
+                    </certificate>
+                </company-certificate>
+            </version>
+        </versions>
+    </medicine>
+    <medicine>
+        <name>Антиоксикапс</name>
+        <group>vitamins</group>
+        <versions>
+            <version type="capsules">
+                <company name="БЕЛМЕДПРЕПАРАТЫ">
+                    <package type="box">
+                        <quantity>20</quantity>
+                        <price>3.29</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period type="day">1</period>
+                    </dosage>
+                </company>
+            </version>
+        </versions>
+    </medicine>
+    <medicine>
+        <name>Валериана</name>
+        <group>sedatives</group>
+        <analogs>Валериана Форте</analogs>
+        <analogs>Валерианы настойка </analogs>
+        <versions>
+            <version type="liquid">
+                <company name="БЕЛМЕДПРЕПАРАТЫ">
+                    <package type="bottle">
+                        <quantity>1</quantity>
+                        <price>2.99</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period>1</period>
+                    </dosage>
+                </company>
+                <company name="Apotex">
+                    <package type="bottle">
+                        <quantity>1</quantity>
+                        <price currency="BYN">5.20</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period type="day">1</period>
+                    </dosage>
+                </company>
+            </version>
+        </versions>
+    </medicine>
+    <medicine>
+        <name>Вильпрафен</name>
+        <group>antibiotics</group>
+        <analogs>Вильпрафен солютаб</analogs>
+        <analogs>Супракс солютаб</analogs>
+        <versions>
+            <version type="tablets">
+                <company-certificate name="БЕЛМЕДПРЕПАРАТЫ">
+                    <package type="package">
+                        <quantity>40</quantity>
+                        <price>9.99</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period>1</period>
+                    </dosage>
+                    <certificate number="id-56195">
+                        <date-issue>2018-03-17</date-issue>
+                        <date-expiration>2021-03-17</date-expiration>
+                        <reg-organization>BelREG</reg-organization>
+                    </certificate>
+                </company-certificate>
+            </version>
+            <version type="capsules">
+                <company-certificate name="Organon">
+                    <package type="package">
+                        <quantity>50</quantity>
+                        <price currency="USD">21.35</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period>1</period>
+                    </dosage>
+                    <certificate number="id-95112">
+                        <date-issue>2015-12-28</date-issue>
+                        <date-expiration>2021-06-28</date-expiration>
+                        <reg-organization>GermanyMed</reg-organization>
+                    </certificate>
+                </company-certificate>
+            </version>
+        </versions>
+    </medicine>
+    <medicine>
+        <name>Нурофен</name>
+        <group>painkillers</group>
+        <analogs>Промедол</analogs>
+        <analogs>Трамадол</analogs>
+        <analogs>Кетанов</analogs>
+        <versions>
+            <version type="capsules">
+                <company name="Slovakofarma">
+                    <package type="box">
+                        <quantity>50</quantity>
+                        <price currency="EUR">9.99</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period type="day">1</period>
+                    </dosage>
+                </company>
+            </version>
+        </versions>
+    </medicine>
+    <medicine>
+        <name>Амитриптилин</name>
+        <group>antidepressants</group>
+        <analogs>Имипрамин</analogs>
+        <analogs>Мапротилин</analogs>
+        <analogs>Кломипрамин</analogs>
+        <analogs>Миансерин</analogs>
+        <versions>
+            <version type="tablets">
+                <company name="БЕЛМЕДПРЕПАРАТЫ">
+                    <package type="box">
+                        <quantity>20</quantity>
+                        <price>22.90</price>
+                    </package>
+                    <dosage>
+                        <size>2</size>
+                        <period type="day">1</period>
+                    </dosage>
+                </company>
+            </version>
+            <version type="capsules">
+                <company name="Solvay Farma">
+                    <package type="box">
+                        <quantity>30</quantity>
+                        <price>21.35</price>
+                    </package>
+                    <dosage>
+                        <size>1</size>
+                        <period>1</period>
+                    </dosage>
+                </company>
+            </version>
+        </versions>
+    </medicine>
+    <medicine>
+        <name>Валериана</name>
+        <group>sedatives</group>
+        <analogs>Валериана Форте</analogs>
+        <analogs>Валерианы настойка </analogs>
+        <versions>
+            <version type="liquid">
+                <company name="БЕЛМЕДПРЕПАРАТЫ">
+                    <package type="bottle">
+                        <quantity>1</quantity>
+                        <price>2.99</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period>1</period>
+                    </dosage>
+                </company>
+                <company name="Apotex">
+                    <package type="bottle">
+                        <quantity>1</quantity>
+                        <price currency="BYN">5.20</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period type="day">1</period>
+                    </dosage>
+                </company>
+            </version>
+        </versions>
+    </medicine>
+    <medicine>
+        <name>Амоксицилин</name>
+        <group>antibiotics</group>
+        <analogs>Ампицилин</analogs>
+        <analogs>Метанол</analogs>
+        <versions>
+            <version type="liquid">
+                <company-certificate name="БЕЛМЕДПРЕПАРАТЫ">
+                    <package type="ampule">
+                        <quantity>1</quantity>
+                        <price currency="BYN">2.91</price>
+                    </package>
+                    <dosage>
+                        <size>1</size>
+                        <period type="day">3</period>
+                    </dosage>
+                    <certificate number="id-13190">
+                        <date-issue>2018-05-22</date-issue>
+                        <date-expiration>2019-09-22</date-expiration>
+                        <reg-organization>BelMedicines</reg-organization>
+                    </certificate>
+                </company-certificate>
+            </version>
+            <version type="tablets">
+                <company-certificate name="Merck Serono">
+                    <package type="box">
+                        <quantity>30</quantity>
+                        <price currency="BYN">8.79</price>
+                    </package>
+                    <dosage>
+                        <size>2</size>
+                        <period type="day">5</period>
+                    </dosage>
+                    <certificate number="id-92197">
+                        <date-issue>2019-02-17</date-issue>
+                        <date-expiration>2022-09-17</date-expiration>
+                        <reg-organization>BelHealth</reg-organization>
+                    </certificate>
+                </company-certificate>
+            </version>
+        </versions>
+    </medicine>
+    <medicine>
+        <name>Ревит</name>
+        <group>vitamins</group>
+        <versions>
+            <version type="tablets">
+                <company name="Merck Serono">
+                    <package type="box">
+                        <quantity>30</quantity>
+                        <price currency="BYN">8.79</price>
+                    </package>
+                    <dosage>
+                        <size>2</size>
+                        <period>1</period>
+                    </dosage>
+                </company>
+            </version>
+            <version type="tablets">
+                <company name="Алтайвитамины">
+                    <package type="box">
+                        <quantity>60</quantity>
+                        <price currency="BYN">3.35</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period type="day">2</period>
+                    </dosage>
+                </company>
+            </version>
+        </versions>
+    </medicine>
+    <medicine>
+        <name>Антиоксикапс</name>
+        <group>vitamins</group>
+        <versions>
+            <version type="capsules">
+                <company name="БЕЛМЕДПРЕПАРАТЫ">
+                    <package type="box">
+                        <quantity>20</quantity>
+                        <price>3.29</price>
+                    </package>
+                    <dosage>
+                        <size>3</size>
+                        <period type="day">1</period>
+                    </dosage>
+                </company>
+            </version>
+        </versions>
+    </medicine>
+</medicines>
