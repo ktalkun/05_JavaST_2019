@@ -10,7 +10,7 @@ import javax.xml.stream.XMLStreamException;
 import java.io.IOException;
 
 /**
- * Interface for parsing xml data and creating {@code Medicines}.
+ * Abstract class for parsing xml data and creating {@code Medicines}.
  *
  * @author Kirill Tolkun
  */

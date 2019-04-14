@@ -3,7 +3,8 @@
     + Task02Objects-A
     + Task02Objects-B
 2. [Task02Threads](#task02threads)
-2. [Task03Composite](#task03composite)
+3. [Task03Composite](#task03composite)
+4. [Task04XMLParser](#task04xmlparser)
 
 # Task01Objects
 ### Task:
@@ -184,6 +185,8 @@ by.tolkun.cashier/
         └── StringValidator.class
                 Class for validation on the possibility of parsing into RestaurantOrder.
 ```
+
+
 # Task03Composite
 ### Task:
 
@@ -292,6 +295,103 @@ by.tolkun.infohandler/
         └── FileValidator.class
                 Class for validation on the possibility of reading file.
 ```
+### Remarks:
+>1. In the unit tests in order to create actual and expected objects data takes from the files.
+
+
+# Task04XMLParser
+### Task:
+
+> Создать xml-файл, хранящий информацию об объектах определённой предметной области. Для валидации полученного xml-файла необходимо разработать соответствующую ему схему xsd. Файл загружать в веб-приложение через страницу в браузере, на странице осуществлять выбор парсера. Выполнить парсинг xml-документа с использованием DOM, SAX, StAX парсеров.
+> Результаты парсинга должны быть выведены в браузер в виде таблицы.
+
+> __4.Лекарственные препараты__
+> - `Name` - наименование препарата;
+> - `Company` - фирма-производитель;
+> - `Group` - группа препаратов, к которым относится лекарство (антибиотики, болеутоляющие, витамины и т.п.);
+> - `Analogs` - содержит наименование аналога;
+> - `Versions` - варианты исполнения (консистенция/вид: таблетки, капсулы, порошок, капли и т.п.). Для каждого варианта исполнения может быть несколько производителей лекарственных препаратов со следующими характеристиками:
+>   -  `Certificate` - свидетельство о регистрации препарата (номер, дата выдачи/истечения действия, регистрирующая организация);
+>   -  `Package` - упаковка (тип упаковки, количество в упаковке, цена за упаковку);
+>   -  `Dosage` - дозировка препарата, периодичность приёма;
+
+### Using in project
+##### External libraries:
+- `servlet-api` - Foundation web specification in the Java Enterprise Platform.
+- `jstl-1.2` - Set of tags that can be used for implementing some common operations such as looping, conditional formatting, and others.
+- `log4g2-2.11.2` - Logging debug information, warns, exception description.
+- `testng-6.14.3` - Unit testing project classes.
+##### Plugins:
+-   `Sketch it` - Automatic generation *UML diagrams* by module, by package, by class.
+-   `Plant UML` - Visualization *UML diagrams* generatred by *Sketch it*.
+##### Patterns:
+- `Builder`
+### Project architecture
+![task04XMLParser](https://i.ibb.co/RDm4kYq/task04-XMLParser.png)
+```
+by.tolkun.xmlparser/
+├── builder/
+|       ├── dom/
+|       |       └── MedicinesDOMBuilder.class
+|       |               Class for parsing and building {@link Medicines} using xml file and DOM.
+|       ├── jaxb/
+|       |       └── MedicinesJAXBBuilder.class
+|       |               Class for parsing and building {@link Medicines} using xml file and JAXB.
+|       ├── sax/
+|       |       ├── MedicineHandler.class
+|       |       |       Class to handle xml elements and form list of medicines.
+|       |       └── MedicinesSAXBuilder.class
+|       |               Class for parsing and building {@code Medicines} using xml file and SAX.
+|       ├── stax/
+|       |       └── MedicinesStAXBuilder.class
+|       |               Class for parsing and building {@code Medicines} using xml file and StAX.
+|       ├── ObjectFactory.class
+|       |       Class to craete entity objects.
+|       └── XmlMedicinesBuilder.class
+|               Abstract class for parsing xml data and creating {@code Medicines}.
+├── entity/
+|       └── medicine/
+|               ├── Certificate.class
+|               |       Java class for Certificate complex type.
+|               ├── CertificateCompany.class
+|               |       Java class for CertificateCompany complex type.
+|               ├── Company.class
+|               |       Java class for Company complex type.
+|               ├── Currency.class
+|               |       Java class for Currency.
+|               ├── Dosage.class
+|               |       Java class for Dosage complex type.
+|               ├── Group.class
+|               |       Java class for Group.
+|               ├── Medicine.class
+|               |       Java class for Medicine complex type.
+|               ├── Medicines.class
+|               |       Java class for anonymous complex type.
+|               ├── MedicinesEnum.class
+|               |       Class to describe tag names.
+|               ├── Package.class
+|               |       Java class for Package complex type.
+|               ├── PackageType.class
+|               |       Java class for PackageType.
+|               ├── Period.class
+|               |       Java class for Period complex type.
+|               ├── PeriodType.class
+|               |       Java class for PeriodType.
+|               ├── Price.class
+|               |       Java class for Price complex type.
+|               ├── Version.class
+|               |       Java class for Version complex type.
+|               ├── Versions.class
+|               |       Java class for Versions complex type.
+|               └── VersionType.class
+|                       Java class for VersionType.
+├── main/
+|       └── Main.class
+|               Class to parse using different parsers and print medicines to console.
+└── servlet/
+        └── TableServlet.class
+                Class to handle http requests.
+```
 
 ### Remarks:
->1. In unit testing in order to create actual and expected objects data takes from the files.
+>1. In the unit tests in order to create actual and expected objects data takes from the files.
