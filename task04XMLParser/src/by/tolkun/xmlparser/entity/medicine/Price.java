@@ -130,7 +130,7 @@ public class Price {
         }
         Price price = (Price) o;
         return Double.compare(price.value, value) == 0
-                && currency == price.currency;
+                && getCurrency() == price.getCurrency();
     }
 
     /**

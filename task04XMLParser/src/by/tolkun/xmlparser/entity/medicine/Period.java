@@ -132,7 +132,7 @@ public class Period {
         }
         Period period = (Period) o;
         return value == period.value
-                && type == period.type;
+                && getType() == period.getType();
     }
 
     /**
