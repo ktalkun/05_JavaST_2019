@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.tolkun.by/xmlparser"
+        xmlns:tns="http://www.tolkun.by/xmlparser"
+        elementFormDefault="qualified">
+
+    <!--Medicines-->
+    <element name="medicines">
+        <complexType>
+            <sequence>
+                <element name="medicine"
+                         type="tns:Medicine"
+                         minOccurs="1"
+                         maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <!--Medicine-->
+    <complexType name="Medicine">
+        <sequence>
+            <element name="name" type="tns:Name"/>
+            <element name="group" type="tns:Group"/>
+            <element name="analogs"
+                     type="tns:Name"
+                     minOccurs="0"
+                     maxOccurs="unbounded"/>
+            <element name="versions" type="tns:Versions"/>
+        </sequence>
+    </complexType>
+
+    <!--Name-->
+    <simpleType name="Name">
+        <restriction base="string">
+            <pattern value="([A-Za-zА-Яа-я]{2,} ?)*"/>
+        </restriction>
+    </simpleType>
+
+    <!--Group-->
+    <simpleType name="Group">
+        <restriction base="string">
+            <!--Вакцины-->
+            <enumeration value="vaccines"/>
+            <!--Антибиотики-->
+            <enumeration value="antibiotics"/>
+            <!--Антисептики-->
+            <enumeration value="antiseptics"/>
+            <!--Противовирусные-->
+            <enumeration value="antiviral"/>
+            <!--Антидеперссанты-->
+            <enumeration value="antidepressants"/>
+            <!--Нейролептики-->
+            <enumeration value="neuroleptics"/>
+            <!--Ноотропы-->
+            <enumeration value="nootropes"/>
+            <!--Седативные-->
+            <enumeration value="sedatives"/>
+            <!--Снотворные-->
+            <enumeration value="sleeping pills"/>
+            <!--Болеутоляющие-->
+            <enumeration value="painkillers"/>
+            <!--Витамины-->
+            <enumeration value="vitamins"/>
+        </restriction>
+    </simpleType>
+
+    <!--Versions-->
+    <complexType name="Versions">
+        <sequence>
+            <element name="version"
+                     type="tns:Version"
+                     minOccurs="1"
+                     maxOccurs="unbounded"/>
+        </sequence>
+    </complexType>
+
+    <!--Version-->
+    <complexType name="Version">
+        <choice minOccurs="1" maxOccurs="unbounded">
+            <element name="company"
+                     type="tns:Company"
+            />
+            <element name="company-certificate"
+                     type="tns:CertificateCompany"
+            />
+        </choice>
+        <attribute name="type" type="tns:VersionType" use="required"/>
+    </complexType>
+
+    <!--VersionType-->
+    <simpleType name="VersionType">
+        <restriction base="string">
+            <!--Таблетки-->
+            <enumeration value="tablets"/>
+            <!--Капсулы-->
+            <enumeration value="capsules"/>
+            <!--Порошок-->
+            <enumeration value="powder"/>
+            <!--Капли-->
+            <enumeration value="drops"/>
+            <!--Спрей-->
+            <enumeration value="spray"/>
+            <!--Жидкость-->
+            <enumeration value="liquid"/>
+        </restriction>
+    </simpleType>
+
+    <!--Company-->
+    <complexType name="Company">
+        <sequence>
+            <element name="package" type="tns:Package"/>
+            <element name="dosage" type="tns:Dosage"/>
+        </sequence>
+        <attribute name="name" type="tns:Name" use="required"/>
+    </complexType>
+
+    <!--Package-->
+    <complexType name="Package">
+        <all>
+            <element name="quantity" type="int"/>
+            <element name="price" type="tns:Price"/>
+        </all>
+        <attribute name="type" type="tns:PackageType" use="required"/>
+    </complexType>
+
+    <!--Price-->
+    <complexType name="Price">
+        <simpleContent>
+            <extension base="double">
+                <attribute name="currency" type="tns:Currency" default="BYN"/>
+            </extension>
+        </simpleContent>
+    </complexType>
+
+    <!--Currency-->
+    <simpleType name="Currency">
+        <restriction base="string">
+            <enumeration value="BYN"/>
+            <enumeration value="EUR"/>
+            <enumeration value="USD"/>
+        </restriction>
+    </simpleType>
+
+    <!--PackageType-->
+    <simpleType name="PackageType">
+        <restriction base="string">
+            <!--Банка-->
+            <enumeration value="bank"/>
+            <!--Пробирка-->
+            <enumeration value="test_tube"/>
+            <!--Флакон-->
+            <enumeration value="vial"/>
+            <!--Бутылка-->
+            <enumeration value="bottle"/>
+            <!--Ампула-->
+            <enumeration value="ampule"/>
+            <!--Аэрозольный баллон-->
+            <enumeration value="aerosol"/>
+            <!--Коробка-->
+            <enumeration value="box"/>
+            <!--Тюбик-->
+            <enumeration value="tube"/>
+            <!--Пакет-->
+            <enumeration value="package"/>
+        </restriction>
+    </simpleType>
+
+    <!--Dosage-->
+    <complexType name="Dosage">
+        <all>
+            <element name="size" type="int"/>
+            <element name="period" type="tns:Period"/>
+        </all>
+    </complexType>
+
+    <!--Period-->
+    <complexType name="Period">
+        <simpleContent>
+            <extension base="int">
+                <attribute name="type" type="tns:PeriodType" default="day"/>
+            </extension>
+        </simpleContent>
+    </complexType>
+
+    <!--PeriodType-->
+    <simpleType name="PeriodType">
+        <restriction base="string">
+            <enumeration value="hour"/>
+            <enumeration value="day"/>
+            <enumeration value="week"/>
+            <enumeration value="month"/>
+            <enumeration value="year"/>
+        </restriction>
+    </simpleType>
+
+    <!--CertificateCompany-->
+    <complexType name="CertificateCompany">
+        <complexContent>
+            <extension base="tns:Company">
+                <sequence>
+                    <element name="certificate" type="tns:Certificate"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <!--Certificate-->
+    <complexType name="Certificate">
+        <all>
+            <element name="date-issue" type="date"/>
+            <element name="date-expiration" type="date"/>
+            <element name="reg-organization" type="tns:Name"/>
+        </all>
+        <attribute name="number" type="ID" use="required"/>
+    </complexType>
+</schema>
+
